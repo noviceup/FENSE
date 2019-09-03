@@ -1,7 +1,5 @@
 KLEE: output directory is "/home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/./klee-out-78"
 KLEE: Using STP solver backend
-1111
-222
 Memory: 1 0
 Memory: 1
 KLEE: WARNING: undefined reference to function: fprintf
