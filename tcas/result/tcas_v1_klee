@@ -1,0 +1,17 @@
+KLEE: output directory is "/home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/./klee-out-1"
+KLEE: Using STP solver backend
+KLEE: ERROR: /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v1.c:59: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v1.c:59: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v1.c:191: ASSERTION FAIL: ret==0
+KLEE: NOTE: now ignoring this error at this location
+Max Memory: 15
+Elapsed: 00:01:07
+
+
+KLEE: done: total instructions = 135931
+KLEE: done: completed paths = 1395
+KLEE: done: generated tests = 0
+57.10user 4.42system 1:06.79elapsed 92%CPU (0avgtext+0avgdata 33848maxresident)k
+7608inputs+312outputs (35major+4126401minor)pagefaults 0swaps

@@ -1,0 +1,16 @@
+KLEE: output directory is "/home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/./klee-out-92"
+KLEE: Using STP solver backend
+KLEE: WARNING: undefined reference to function: fprintf
+KLEE: WARNING: undefined reference to function: klee_assert
+KLEE: WARNING: undefined reference to variable: stdout
+KLEE: ERROR: /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v38.c:53: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+Max Memory: 0
+Elapsed: 00:00:00
+
+
+KLEE: done: total instructions = 23
+KLEE: done: completed paths = 1
+KLEE: done: generated tests = 0
+0.00user 0.00system 0:00.01elapsed 72%CPU (0avgtext+0avgdata 14008maxresident)k
+0inputs+256outputs (0major+639minor)pagefaults 0swaps

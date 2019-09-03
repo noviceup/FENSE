@@ -1,0 +1,1502 @@
+KLEE: output directory is "/home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/./klee-out-102"
+KLEE: Using STP solver backend
+1111
+222
+Memory: 1 0
+Memory: 1
+KLEE: WARNING: undefined reference to function: fprintf
+KLEE: WARNING: undefined reference to variable: stdout
+KLEE: WARNING ONCE: calling external: fprintf(140428925989888, 39055344, 0) at /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v6.c:207
+0
+0
+0
+[0;1;34mEarly terminated11: 0x265d5e0
+[0mKLEE: ERROR: /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v6.c:59: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+[0;1;34mEarly terminated11: 0x29696c0
+[0m2
+[0;1;34mEarly terminated11: 0x2936660
+[0m2
+[0;1;34mEarly terminated11: 0x2936660
+[0m2
+[0;1;34mEarly terminated11: 0x2936660
+[0m2
+[0;1;34mEarly terminated11: 0x298f310
+[0m2
+[0;1;34mEarly terminated11: 0x298f310
+[0m2
+[0;1;34mEarly terminated11: 0x298f310
+[0m2
+[0;1;34mEarly terminated11: 0x298f310
+[0m2
+[0;1;34mEarly terminated11: 0x298f310
+[0m2
+[0;1;34mEarly terminated11: 0x298f310
+[0m2
+[0;1;34mEarly terminated11: 0x298f310
+[0m2
+[0;1;34mEarly terminated11: 0x298f310
+[0m2
+[0;1;34mEarly terminated11: 0x298f310
+[0m2
+[0;1;34mEarly terminated11: 0x298f310
+[0m2
+[0;1;34mEarly terminated11: 0x298f310
+[0m2
+[0;1;34mEarly terminated11: 0x298f310
+[0m2
+[0;1;34mEarly terminated11: 0x29a34a0
+[0m2
+[0;1;34mEarly terminated11: 0x29a34a0
+[0m2
+[0;1;34mEarly terminated11: 0x290e550
+[0m2
+[0;1;34mEarly terminated11: 0x290e550
+[0m2
+[0;1;34mEarly terminated11: 0x2855680
+[0m2
+[0;1;34mEarly terminated11: 0x29abef0
+[0m2
+[0;1;34mEarly terminated11: 0x29abef0
+[0m2
+[0;1;34mEarly terminated11: 0x29abef0
+[0m2
+[0;1;34mEarly terminated11: 0x29b7fa0
+[0m2
+[0;1;34mEarly terminated11: 0x29b9160
+[0m2
+[0;1;34mEarly terminated11: 0x29b9160
+[0m2
+[0;1;34mEarly terminated11: 0x29b9160
+[0m2
+[0;1;34mEarly terminated11: 0x29bb5d0
+[0m2
+[0;1;34mEarly terminated11: 0x29b9160
+[0m2
+[0;1;34mEarly terminated11: 0x29b9160
+[0m2
+[0;1;34mEarly terminated11: 0x29bec90
+[0m2
+[0;1;34mEarly terminated11: 0x29bf3d0
+[0m2
+[0;1;34mEarly terminated11: 0x29bf3d0
+[0m2
+[0;1;34mEarly terminated11: 0x29bf3d0
+[0m2
+[0;1;34mEarly terminated11: 0x29bf3d0
+[0m2
+[0;1;34mEarly terminated11: 0x29c21c0
+[0m2
+[0;1;34mEarly terminated11: 0x29c21c0
+[0m0
+2
+[0;1;34mEarly terminated11: 0x2815610
+[0m2
+[0;1;34mEarly terminated11: 0x2815610
+[0m2
+[0;1;34mEarly terminated11: 0x2815610
+[0m2
+[0;1;34mEarly terminated11: 0x2803300
+[0m0
+2
+[0;1;34mEarly terminated11: 0x2821670
+[0m2
+[0;1;34mEarly terminated11: 0x29d66c0
+[0m2
+[0;1;34mEarly terminated11: 0x29d66c0
+[0m2
+[0;1;34mEarly terminated11: 0x27fba60
+[0m2
+[0;1;34mEarly terminated11: 0x27fba60
+[0m2
+[0;1;34mEarly terminated11: 0x27fc3e0
+[0m2
+[0;1;34mEarly terminated11: 0x27f6ee0
+[0m2
+[0;1;34mEarly terminated11: 0x27f6ee0
+[0m2
+[0;1;34mEarly terminated11: 0x27f6ee0
+[0m0
+2
+[0;1;34mEarly terminated11: 0x27e2c70
+[0m0
+2
+[0;1;34mEarly terminated11: 0x29e1f20
+[0m2
+[0;1;34mEarly terminated11: 0x29e1f20
+[0m2
+[0;1;34mEarly terminated11: 0x27ac2f0
+[0m2
+[0;1;34mEarly terminated11: 0x2a3fb70
+[0m2
+[0;1;34mEarly terminated11: 0x2a40130
+[0m2
+[0;1;34mEarly terminated11: 0x2a40130
+[0m2
+[0;1;34mEarly terminated11: 0x2a40130
+[0m2
+[0;1;34mEarly terminated11: 0x2a425e0
+[0m2
+[0;1;34mEarly terminated11: 0x27a3730
+[0m2
+[0;1;34mEarly terminated11: 0x27a3730
+[0m2
+[0;1;34mEarly terminated11: 0x2790be0
+[0m2
+[0;1;34mEarly terminated11: 0x2790bc0
+[0m2
+[0;1;34mEarly terminated11: 0x2a348f0
+[0m2
+[0;1;34mEarly terminated11: 0x29e5400
+[0m2
+[0;1;34mEarly terminated11: 0x277a4f0
+[0m2
+[0;1;34mEarly terminated11: 0x2774ed0
+[0m2
+[0;1;34mEarly terminated11: 0x29ea520
+[0m2
+[0;1;34mEarly terminated11: 0x29ea520
+[0m2
+[0;1;34mEarly terminated11: 0x2a713e0
+[0m2
+[0;1;34mEarly terminated11: 0x29ea520
+[0m2
+[0;1;34mEarly terminated11: 0x29ea520
+[0m2
+[0;1;34mEarly terminated11: 0x2753a20
+[0m2
+[0;1;34mEarly terminated11: 0x2753a20
+[0m2
+[0;1;34mEarly terminated11: 0x274e900
+[0m2
+[0;1;34mEarly terminated11: 0x274e900
+[0m2
+[0;1;34mEarly terminated11: 0x274e900
+[0m2
+[0;1;34mEarly terminated11: 0x2a7eff0
+[0m2
+[0;1;34mEarly terminated11: 0x273f570
+[0m2
+[0;1;34mEarly terminated11: 0x2734550
+[0m2
+[0;1;34mEarly terminated11: 0x272afc0
+[0m2
+[0;1;34mEarly terminated11: 0x272a4b0
+[0m2
+[0;1;34mEarly terminated11: 0x2a87880
+[0m2
+[0;1;34mEarly terminated11: 0x2a81bd0
+[0m2
+[0;1;34mEarly terminated11: 0x2a82b60
+[0m2
+[0;1;34mEarly terminated11: 0x2a93b20
+[0m2
+[0;1;34mEarly terminated11: 0x2a9dc80
+[0m2
+[0;1;34mEarly terminated11: 0x2703b20
+[0m2
+[0;1;34mEarly terminated11: 0x2a9d710
+[0m2
+[0;1;34mEarly terminated11: 0x2a92050
+[0m2
+[0;1;34mEarly terminated11: 0x2a9ce40
+[0m2
+[0;1;34mEarly terminated11: 0x2717020
+[0m2
+[0;1;34mEarly terminated11: 0x2701900
+[0m2
+[0;1;34mEarly terminated11: 0x26f54b0
+[0m2
+[0;1;34mEarly terminated11: 0x2a95b20
+[0m2
+[0;1;34mEarly terminated11: 0x2701a90
+[0m2
+[0;1;34mEarly terminated11: 0x2a85b20
+[0m2
+[0;1;34mEarly terminated11: 0x26f5240
+[0m2
+[0;1;34mEarly terminated11: 0x26e1550
+[0m2
+[0;1;34mEarly terminated11: 0x26ef4c0
+[0m2
+[0;1;34mEarly terminated11: 0x26f51b0
+[0m2
+[0;1;34mEarly terminated11: 0x26e63d0
+[0m2
+[0;1;34mEarly terminated11: 0x26e2dd0
+[0m2
+[0;1;34mEarly terminated11: 0x26e8160
+[0m2
+[0;1;34mEarly terminated11: 0x2aa5e80
+[0m2
+[0;1;34mEarly terminated11: 0x26f78b0
+[0m2
+[0;1;34mEarly terminated11: 0x26d93f0
+[0m2
+[0;1;34mEarly terminated11: 0x26e0630
+[0m2
+[0;1;34mEarly terminated11: 0x26cd370
+[0m2
+[0;1;34mEarly terminated11: 0x26cfff0
+[0m2
+[0;1;34mEarly terminated11: 0x26d0140
+[0m2
+[0;1;34mEarly terminated11: 0x26c3a60
+[0m2
+[0;1;34mEarly terminated11: 0x2a992e0
+[0m2
+[0;1;34mEarly terminated11: 0x26b3540
+[0m2
+[0;1;34mEarly terminated11: 0x26929a0
+[0m2
+[0;1;34mEarly terminated11: 0x26ad420
+[0m2
+[0;1;34mEarly terminated11: 0x26ba250
+[0m2
+[0;1;34mEarly terminated11: 0x26ba250
+[0m2
+[0;1;34mEarly terminated11: 0x26b4c30
+[0m2
+[0;1;34mEarly terminated11: 0x26b4c30
+[0m2
+[0;1;34mEarly terminated11: 0x26af280
+[0m2
+[0;1;34mEarly terminated11: 0x27b8fd0
+[0m2
+[0;1;34mEarly terminated11: 0x26b4c30
+[0m2
+[0;1;34mEarly terminated11: 0x26a9d70
+[0m2
+[0;1;34mEarly terminated11: 0x26a4f90
+[0m2
+[0;1;34mEarly terminated11: 0x269abe0
+[0m2
+[0;1;34mEarly terminated11: 0x27b8f20
+[0m2
+2
+[0;1;34mEarly terminated11: 0x269a920
+[0m2
+[0;1;34mEarly terminated11: 0x269a920
+[0m2
+[0;1;34mEarly terminated11: 0x26981f0
+[0m2
+[0;1;34mEarly terminated11: 0x269a920
+[0m2
+[0;1;34mEarly terminated11: 0x269a920
+[0m2
+[0;1;34mEarly terminated11: 0x26b8440
+[0m2
+[0;1;34mEarly terminated11: 0x26961c0
+[0m2
+[0;1;34mEarly terminated11: 0x268b8a0
+[0m2
+[0;1;34mEarly terminated11: 0x2694180
+[0m2
+[0;1;34mEarly terminated11: 0x2694210
+[0m2
+[0;1;34mEarly terminated11: 0x27b8f90
+[0m2
+[0;1;34mEarly terminated11: 0x2694180
+[0m2
+[0;1;34mEarly terminated11: 0x2681a00
+[0m2
+[0;1;34mEarly terminated11: 0x2694180
+[0m2
+[0;1;34mEarly terminated11: 0x2690490
+[0m2
+KLEE: ERROR: /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v6.c:59: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+0
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bf1800
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bd8410
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bd3ad0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bf0940
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bd1fe0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bedf10
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bc7ee0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bedf10
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2be5530
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdd210
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bedf10
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdd210
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdd210
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bd44a0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2a90df0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2a91210
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bd44a0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bb2060
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2baf420
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bd64f0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bd64f0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bef6d0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bd64f0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ba9550
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ba94e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bb3d20
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bb3d20
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bb3d20
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b93b80
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b923e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b923e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b86150
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b923e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b8c440
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bb7f50
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ba9ed0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b8f280
+[0m1
+prune10: 129
+[0;1;34mEarly terminated3: 129 0x2b8f280
+[0mprune10: 129
+[0;1;34mEarly terminated3: 129 0x2b7bc50
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2be6910
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b7a6e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2baaaf0
+[0m1
+prune10: 129
+[0;1;34mEarly terminated3: 129 0x2b736a0
+[0mprune10: 129
+[0;1;34mEarly terminated3: 129 0x2b7a6e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b7dc10
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bd9340
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b6f5e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bc0a30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bd93f0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b62b30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b60d80
+[0m1
+prune10: 129
+[0;1;34mEarly terminated3: 129 0x2bc21c0
+[0mprune10: 129
+[0;1;34mEarly terminated3: 129 0x2b60d80
+[0m1
+prune10: 129
+[0;1;34mEarly terminated3: 129 0x2b67c10
+[0mprune10: 129
+[0;1;34mEarly terminated3: 129 0x2b5dbd0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b67840
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b73890
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b5bea0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b53490
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b44330
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b44330
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b39e80
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b1d470
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b16920
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2bdbe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2aff1f0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2afdd20
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2afb290
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2af8100
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2afb290
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2af80d0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2afb290
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2af6430
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2af6430
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2af0130
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2af6430
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ae91f0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2af01c0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ae31e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ae9640
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ae05c0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2af7540
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b04c50
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2af7590
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2af7590
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ad8060
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2af7590
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2af7590
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2af7590
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2af7590
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2af7590
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2af7590
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ac79c0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ac79c0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ad0cd0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ad0cd0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ae9730
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ab5d10
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2b0c1e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ad8060
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ab3640
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ab3640
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ab3640
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ab3640
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ab3640
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ab3640
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ab3640
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ab3640
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ab3640
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ab3640
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2696be0
+[0mprune10: 128
+[0;1;34mEarly terminated3: 128 0x2ab3640
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ad8060
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ad8060
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ab3640
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ab3640
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ab3640
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ab3640
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2698680
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2698680
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ab3640
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ab3640
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x26904c0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x26904c0
+[0m[0;1;34mEarly terminated11: 0x265b5a0
+[0m1
+0
+[0;1;34mEarly terminated11: 0x2ab3640
+[0m[0;1;34mEarly terminated11: 0x2c482b0
+[0m[0;1;34mEarly terminated11: 0x2c71b50
+[0m2
+[0;1;34mEarly terminated11: 0x2c41a00
+[0m2
+[0;1;34mEarly terminated11: 0x2c5b370
+[0m2
+[0;1;34mEarly terminated11: 0x2c50a80
+[0m2
+[0;1;34mEarly terminated11: 0x2c5f8e0
+[0m2
+[0;1;34mEarly terminated11: 0x2c33f90
+[0m2
+[0;1;34mEarly terminated11: 0x2c36a20
+[0m2
+[0;1;34mEarly terminated11: 0x2c36a20
+[0m2
+[0;1;34mEarly terminated11: 0x2c31000
+[0m2
+[0;1;34mEarly terminated11: 0x2c2f200
+[0m2
+[0;1;34mEarly terminated11: 0x2c23cd0
+[0m2
+[0;1;34mEarly terminated11: 0x2c28a60
+[0m2
+[0;1;34mEarly terminated11: 0x2c2c530
+[0m2
+[0;1;34mEarly terminated11: 0x2ca3c10
+[0m2
+[0;1;34mEarly terminated11: 0x2ca3c10
+[0m2
+[0;1;34mEarly terminated11: 0x2c1db80
+[0m2
+[0;1;34mEarly terminated11: 0x2cb47e0
+[0m2
+[0;1;34mEarly terminated11: 0x2c1db90
+[0m2
+[0;1;34mEarly terminated11: 0x2c1db90
+[0m2
+[0;1;34mEarly terminated11: 0x2c0f5c0
+[0m2
+[0;1;34mEarly terminated11: 0x2c0f9f0
+[0m2
+[0;1;34mEarly terminated11: 0x2c11780
+[0m2
+[0;1;34mEarly terminated11: 0x2c157f0
+[0m2
+[0;1;34mEarly terminated11: 0x2c4df80
+[0m2
+[0;1;34mEarly terminated11: 0x2c14610
+[0m2
+[0;1;34mEarly terminated11: 0x2c14610
+[0m2
+[0;1;34mEarly terminated11: 0x2c0d780
+[0m2
+[0;1;34mEarly terminated11: 0x2ce1e90
+[0m2
+[0;1;34mEarly terminated11: 0x2cb2a10
+[0m2
+[0;1;34mEarly terminated11: 0x2c06c40
+[0m2
+[0;1;34mEarly terminated11: 0x2c06c40
+[0m2
+[0;1;34mEarly terminated11: 0x2c06c40
+[0m2
+[0;1;34mEarly terminated11: 0x2c06c40
+[0m2
+[0;1;34mEarly terminated11: 0x2c01a00
+[0m2
+2
+[0;1;34mEarly terminated11: 0x2c07320
+[0m[0;1;34mEarly terminated11: 0x2c06c40
+[0m2
+[0;1;34mEarly terminated11: 0x2c04170
+[0m2
+0
+2
+[0;1;34mEarly terminated11: 0x2d17370
+[0m2
+[0;1;34mEarly terminated11: 0x2be6f30
+[0m[0;1;34mEarly terminated11: 0x2c06c40
+[0m2
+[0;1;34mEarly terminated11: 0x2c06c40
+[0m2
+0
+[0;1;34mEarly terminated11: 0x2d14a20
+[0m2
+[0;1;34mEarly terminated11: 0x2cb2a80
+[0m2
+2
+[0;1;34mEarly terminated11: 0x2d1d0d0
+[0m[0;1;34mEarly terminated11: 0x2d3f8a0
+[0m2
+[0;1;34mEarly terminated11: 0x2b82f80
+[0m2
+[0;1;34mEarly terminated11: 0x2b820e0
+[0m2
+[0;1;34mEarly terminated11: 0x2d445c0
+[0m2
+[0;1;34mEarly terminated11: 0x2ba83c0
+[0m2
+[0;1;34mEarly terminated11: 0x2ba83c0
+[0m2
+0
+[0;1;34mEarly terminated11: 0x2ba83c0
+[0m2
+0
+[0;1;34mEarly terminated11: 0x2b46410
+[0m2
+[0;1;34mEarly terminated11: 0x2ace0f0
+[0m2
+[0;1;34mEarly terminated11: 0x2acaed0
+[0m2
+[0;1;34mEarly terminated11: 0x2d5a070
+[0m2
+[0;1;34mEarly terminated11: 0x2d66680
+[0m2
+[0;1;34mEarly terminated11: 0x2af8f60
+[0m2
+[0;1;34mEarly terminated11: 0x2afa820
+[0m2
+[0;1;34mEarly terminated11: 0x2b26840
+[0m2
+[0;1;34mEarly terminated11: 0x2d8f060
+[0m2
+[0;1;34mEarly terminated11: 0x2b2c090
+[0m2
+[0;1;34mEarly terminated11: 0x2d90a60
+[0m2
+[0;1;34mEarly terminated11: 0x2d80220
+[0m2
+[0;1;34mEarly terminated11: 0x2b214d0
+[0m2
+[0;1;34mEarly terminated11: 0x2b1f530
+[0m2
+[0;1;34mEarly terminated11: 0x2da32a0
+[0m2
+[0;1;34mEarly terminated11: 0x2b1f530
+[0m2
+[0;1;34mEarly terminated11: 0x2db2400
+[0m2
+[0;1;34mEarly terminated11: 0x2bcd5d0
+[0m2
+[0;1;34mEarly terminated11: 0x2bcd5d0
+[0m2
+[0;1;34mEarly terminated11: 0x2bcd5d0
+[0m2
+[0;1;34mEarly terminated11: 0x2bcd5d0
+[0m2
+[0;1;34mEarly terminated11: 0x2be3c90
+[0m2
+[0;1;34mEarly terminated11: 0x2bcd5d0
+[0m2
+[0;1;34mEarly terminated11: 0x2abd8b0
+[0m2
+[0;1;34mEarly terminated11: 0x2db9200
+[0m2
+[0;1;34mEarly terminated11: 0x2b436b0
+[0m2
+[0;1;34mEarly terminated11: 0x2b436b0
+[0m2
+[0;1;34mEarly terminated11: 0x2b6b8b0
+[0m2
+[0;1;34mEarly terminated11: 0x2dd4880
+[0m2
+[0;1;34mEarly terminated11: 0x2b5fac0
+[0m2
+[0;1;34mEarly terminated11: 0x2bd7500
+[0m2
+[0;1;34mEarly terminated11: 0x2dd4880
+[0m2
+[0;1;34mEarly terminated11: 0x2dd4880
+[0m2
+[0;1;34mEarly terminated11: 0x2b845d0
+[0m2
+[0;1;34mEarly terminated11: 0x2b2fc20
+[0m2
+[0;1;34mEarly terminated11: 0x2b2ed20
+[0m2
+[0;1;34mEarly terminated11: 0x2de84e0
+[0m2
+[0;1;34mEarly terminated11: 0x2de84e0
+[0m2
+[0;1;34mEarly terminated11: 0x2de84e0
+[0m2
+[0;1;34mEarly terminated11: 0x2ddb320
+[0m2
+[0;1;34mEarly terminated11: 0x2b0b000
+[0m2
+[0;1;34mEarly terminated11: 0x2b1ae10
+[0m2
+[0;1;34mEarly terminated11: 0x260f9a0
+[0m2
+[0;1;34mEarly terminated11: 0x2ae3230
+[0m2
+[0;1;34mEarly terminated11: 0x2dc93a0
+[0m2
+[0;1;34mEarly terminated11: 0x2ab6d20
+[0m2
+[0;1;34mEarly terminated11: 0x2ab68e0
+[0m2
+[0;1;34mEarly terminated11: 0x2b17af0
+[0m2
+[0;1;34mEarly terminated11: 0x2b17780
+[0m2
+[0;1;34mEarly terminated11: 0x2b12f10
+[0m2
+[0;1;34mEarly terminated11: 0x2b4f6d0
+[0m2
+[0;1;34mEarly terminated11: 0x2b52c80
+[0m2
+[0;1;34mEarly terminated11: 0x2b54110
+[0m2
+[0;1;34mEarly terminated11: 0x2aee5e0
+[0m2
+[0;1;34mEarly terminated11: 0x2a98930
+[0m2
+[0;1;34mEarly terminated11: 0x2a98930
+[0m2
+[0;1;34mEarly terminated11: 0x2aed460
+[0m2
+[0;1;34mEarly terminated11: 0x2aee5e0
+[0m2
+[0;1;34mEarly terminated11: 0x2b25f50
+[0m2
+[0;1;34mEarly terminated11: 0x2684aa0
+[0m2
+[0;1;34mEarly terminated11: 0x2ac0470
+[0m2
+[0;1;34mEarly terminated11: 0x2b4c750
+[0m2
+[0;1;34mEarly terminated11: 0x267d200
+[0m2
+[0;1;34mEarly terminated11: 0x2b5ce20
+[0m2
+[0;1;34mEarly terminated11: 0x2e28aa0
+[0m2
+[0;1;34mEarly terminated11: 0x2aca140
+[0m2
+[0;1;34mEarly terminated11: 0x2afe280
+[0m2
+2
+[0;1;34mEarly terminated11: 0x2e337c0
+[0m[0;1;34mEarly terminated11: 0x2e36ab0
+[0m2
+[0;1;34mEarly terminated11: 0x2ae3900
+[0m2
+[0;1;34mEarly terminated11: 0x2b51460
+[0m2
+[0;1;34mEarly terminated11: 0x2b0e350
+[0m2
+[0;1;34mEarly terminated11: 0x2ac5690
+[0m2
+[0;1;34mEarly terminated11: 0x2aef640
+[0m2
+[0;1;34mEarly terminated11: 0x2e01f10
+[0m2
+[0;1;34mEarly terminated11: 0x2b5abd0
+[0m2
+2
+[0;1;34mEarly terminated11: 0x26b7460
+[0m2
+[0;1;34mEarly terminated11: 0x26bd730
+[0m2
+[0;1;34mEarly terminated11: 0x2e2f620
+[0m2
+[0;1;34mEarly terminated11: 0x2e390a0
+[0m2
+[0;1;34mEarly terminated11: 0x26831a0
+[0m2
+2
+[0;1;34mEarly terminated11: 0x267d990
+[0m[0;1;34mEarly terminated11: 0x2690490
+[0m2
+[0;1;34mEarly terminated11: 0x26bebb0
+[0m2
+[0;1;34mEarly terminated11: 0x2689040
+[0m2
+[0;1;34mEarly terminated11: 0x268fcd0
+[0m2
+[0;1;34mEarly terminated11: 0x2ad8060
+[0m2
+[0;1;34mEarly terminated11: 0x26cae10
+[0m2
+[0;1;34mEarly terminated11: 0x265e3f0
+[0m2
+[0;1;34mEarly terminated11: 0x2ab3640
+[0m2
+[0;1;34mEarly terminated11: 0x2698680
+[0m2
+2
+0
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f9e560
+[0mmemory: 10
+1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f93250
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f88a10
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f964e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f8f740
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f80530
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f89040
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f82ab0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f79c20
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2fb5270
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2fec560
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f72780
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f72af0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f691e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f6eb10
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f6f7e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f71ee0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x30136f0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x3006ba0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x301c5f0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f635e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f5f3c0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x3026970
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x3031970
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ff7fc0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f591b0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f7a880
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f56e40
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ff7750
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x3021950
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x3020b20
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x3017840
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f453a0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f4d0e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f3efe0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f57b90
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f36330
+[0m1
+prune10: 129
+[0;1;34mEarly terminated3: 129 0x2f437f0
+[0mprune10: 129
+[0;1;34mEarly terminated3: 129 0x2f46790
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f3cce0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x30685e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f353f0
+[0m1
+prune10: 129
+[0;1;34mEarly terminated3: 129 0x2f35140
+[0mprune10: 129
+[0;1;34mEarly terminated3: 129 0x308a300
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x3077430
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x3095fd0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x307beb0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x30a0390
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f18dd0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x3072bc0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x30a3e50
+[0m1
+prune10: 129
+[0;1;34mEarly terminated3: 129 0x2f1c550
+[0mprune10: 129
+[0;1;34mEarly terminated3: 129 0x30a3e50
+[0m1
+prune10: 129
+[0;1;34mEarly terminated3: 129 0x30b5570
+[0mprune10: 129
+[0;1;34mEarly terminated3: 129 0x30a3ec0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f174d0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x30afe30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f0dca0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f0d840
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f16920
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x30d2030
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f14390
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f03090
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x30e9b20
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2efe060
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2efc690
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x30f4a30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2efa610
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2f01930
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x31019e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x30f99a0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x3105710
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x31091d0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2eedcf0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ee5e00
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x31120c0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x31185d0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x3112150
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x311eeb0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x310b970
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2edf250
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x312b010
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2eda650
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ed5950
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x3130f40
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x311e590
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x31311e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x3141740
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x3141cc0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x313a8a0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x3150150
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x3150600
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x31377e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ec4da0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x315d000
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2eba5b0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x3153c40
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x313b200
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x313c000
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2eafdb0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2eac1d0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2eb04f0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ea93b0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ea4530
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2eb1800
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ea6410
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x3174d60
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e9fb80
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2ea28a0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e99900
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e94b30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e91810
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x3184b30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e90830
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e92d30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x318ed50
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e96390
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e83170
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e88130
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e81290
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x31961d0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e84f80
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x31921e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e814e0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e744a0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e7b410
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e70810
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e7a9b0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e71930
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e6e360
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x31a5540
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x31a6680
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e65ab0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e65360
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e57f50
+[0mprune10: 128
+[0;1;34mEarly terminated3: 128 0x2e579f0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x31ac660
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x31abb40
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e5b200
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e535d0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x31b07c0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e46a10
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x31afe00
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e48540
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e47c30
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x2e49f50
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x26899c0
+[0m1
+prune10: 128
+[0;1;34mEarly terminated3: 128 0x268a7e0
+[0mKLEE: ERROR: /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v6.c:204: ASSERTION FAIL: ret == 0
+KLEE: NOTE: now ignoring this error at this location
+[0;1;34mEarly terminated11: 0x255eae0
+[0m[0;1;34m
+Run Time: 5.099000e+01 1.375202e+01
+Analysis Time: 0.000000e+00
+Update State Time: 1.014420e-01
+Update Summary Time: 9.352900e-02
+Prune State Time: 2.000770e-01 1.297500e-02 7.165000e-03
+Setting: dise & ise & isum --> 0 1 0
+Max Memory: 10
+[0m1
+Elapsed: 00:00:51
+
+
+KLEE: done: total instructions = 88167
+KLEE: done: completed paths = 1179
+KLEE: done: generated tests = 0
+43.72user 3.50system 0:51.01elapsed 92%CPU (0avgtext+0avgdata 34720maxresident)k
+0inputs+416outputs (0major+2851899minor)pagefaults 0swaps

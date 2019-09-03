@@ -1,0 +1,2149 @@
+KLEE: output directory is "/home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/./klee-out-66"
+KLEE: Using STP solver backend
+1111
+222
+Memory: 1 0
+Memory: 1
+KLEE: WARNING: undefined reference to function: fprintf
+KLEE: WARNING: undefined reference to variable: stdout
+KLEE: WARNING ONCE: calling external: fprintf(139797872067584, 44997520, 0) at /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v10.c:207
+0
+0
+0
+0
+KLEE: ERROR: /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v10.c:59: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2ee6ea0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2ef1100
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2ef1100
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2ef1100
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2ef1100
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2ef1100
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2ef1100
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2ef1100
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2ef1100
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2ef1100
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2ef1100
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2e5b840
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2ef1100
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2e5b840
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2e5b840
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2e4b760
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2e5b840
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2e4b760
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2e5b840
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2e4b760
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2e4b760
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2e1d790
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2e5b840
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2f844e0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2e0baa0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2e0baa0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2e0baa0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2e0baa0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2e0baa0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2f8a210
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2dee3c0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2df4210
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2df4c00
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2dee3c0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2de87f0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2df4210
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2dd4900
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2dd6460
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2ddba10
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2dd7570
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2dd6050
+[0m0
+1
+2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2dcdb10
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2f95bc0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2f95bc0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2f968a0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2f99da0
+[0m0
+1
+2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2dc96b0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2f9e250
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2f9e940
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2db3c00
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2db3c00
+[0m0
+1
+2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2db0c30
+[0m0
+1
+2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2fa7cf0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2da4ba0
+[0m0
+1
+2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2fc3220
+[0m0
+1
+2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2da4ba0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2da4ba0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2da4ba0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2da4ba0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3015b20
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2d67800
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2d67800
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2d67800
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2d67800
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x304ebc0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x304ebc0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x304ebc0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3051e80
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2d387b0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2d387b0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x305c920
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x305e330
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x305e330
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2d1a610
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2d1a610
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2d1a610
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2cf5220
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2cf5220
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2cf5220
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2cf5220
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2d01970
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2d01970
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2d01970
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2cea6f0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2d01970
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2ce70e0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3065190
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x306b860
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x306d780
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2cccef0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2cd0e90
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2cd13d0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2cc35d0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2cc4030
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2cc30a0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2cae790
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2cba610
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2cbde20
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2cc8250
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2cbfc80
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2caf160
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2ca5be0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2cac890
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2cac9b0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2ca9150
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2ca9150
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c8aae0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2ca0240
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c9f680
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c93880
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c901e0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c94fa0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c86d40
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c882c0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c88be0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c8cdf0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c79620
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c7a640
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c76300
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c76300
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c76300
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c751d0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c6b570
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c60e50
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c69da0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c60f50
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c7d100
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c60470
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c77440
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c7cc30
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c7cc30
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c70f60
+[0m2
+0
+2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c53190
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c4f600
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c5cbc0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c6bb10
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c4a030
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c4a030
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c4a030
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c408e0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c54330
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c5cbc0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c57980
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c57a00
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c54180
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c6bc60
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c2eee0
+[0m2
+0
+KLEE: ERROR: /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v10.c:59: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+0
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x31645d0
+[0m0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x316f6b0
+[0m0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x31418d0
+[0m0
+2
+1
+0
+2
+1
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3170220
+[0m0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+memory: 6
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+[0;1;34mEarly terminated11: 0x2c09a90
+[0m0
+2
+1
+0
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3242cd0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x32471c0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x325d7c0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x325d7c0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3239eb0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3280480
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3283700
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x32834b0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x32834b0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3228a00
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3228a00
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3228a00
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x326ff30
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3214b70
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x32b8ae0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3223890
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x32c6150
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x320bb40
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x32d04f0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x32d02a0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x32d6410
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x320e510
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x32090f0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x32090f0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x32f12e0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3204900
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3200720
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x321e040
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x32fefe0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33018e0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33062e0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33062e0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33062e0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x31f8300
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x31f8300
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x31f8300
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x31f8300
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3212a00
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x31eb410
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3317260
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33353a0
+[0m0
+1
+2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x31ebeb0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3328e90
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3331e50
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3342630
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x317da10
+[0m0
+1
+2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x317da10
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x335d0c0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x317dee0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3365550
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3179030
+[0m0
+1
+2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x31b5a30
+[0m0
+1
+2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3197260
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x336eef0
+[0m0
+1
+2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3199080
+[0m0
+1
+2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3199080
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3199080
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3199080
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x319e630
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33b6f30
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33b6f30
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x318c580
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x31a8300
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33c7390
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33aeea0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33cea10
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x30e4f60
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33c5fc0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33c5fc0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33a3200
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x313a810
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x308cf20
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33d8670
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33d8670
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33ef800
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33ca640
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33ff0b0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33ff0b0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33ff0b0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x340c350
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x30b7f40
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3411b70
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x33e2300
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x309aca0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x31028e0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3172150
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3171820
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x341ea60
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x341ea60
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x31489c0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x31a0980
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x34100e0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x30b3480
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x34342d0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x341f230
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x312c250
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x30ba460
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3439260
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x30b0040
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x34359e0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x34359e0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x343bdf0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x30cd820
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x30c4710
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x30c4710
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x312f090
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x30c7550
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x30c8d80
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3454460
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c303b0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c30810
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c30810
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c30810
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3467eb0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x308e360
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x307ba20
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x346b3e0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x346d4d0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x309cbb0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3074bd0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3127b60
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x30e74c0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3446f60
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x347b3b0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x347b3b0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3462610
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3462610
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3127420
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x307f490
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x307d0f0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3462e10
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x348ec30
+[0m2
+0
+2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x31633e0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x306fc80
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3491a10
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3084260
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c0b910
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x34a4d20
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x3141170
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c541c0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x318f680
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x30ebba0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x34a6160
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c3dc10
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c33be0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x2c33fc0
+[0m2
+0
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x34b0d20
+[0m2
+0
+0
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x37c4410
+[0m0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x37f9900
+[0m0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x381cd70
+[0m0
+2
+1
+0
+2
+1
+prune10: 131
+[0;1;34mEarly terminated3: 131 0x383ca90
+[0m0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+memory: 14
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+KLEE: ERROR: /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v10.c:204: ASSERTION FAIL: ret == 0
+KLEE: NOTE: now ignoring this error at this location
+[0;1;34mEarly terminated11: 0x2b098c0
+[0m[0;1;34m
+Run Time: 6.425000e+01 1.811947e+01
+Analysis Time: 0.000000e+00
+Update State Time: 1.383840e-01
+Update Summary Time: 1.962220e-01
+Prune State Time: 1.491780e-01 2.276600e-02 1.151500e-02
+Setting: dise & ise & isum --> 0 1 0
+Max Memory: 14
+[0m1
+Elapsed: 00:01:04
+
+
+KLEE: done: total instructions = 153563
+KLEE: done: completed paths = 1819
+KLEE: done: generated tests = 0
+54.08user 5.53system 1:04.28elapsed 92%CPU (0avgtext+0avgdata 36552maxresident)k
+0inputs+416outputs (0major+4216721minor)pagefaults 0swaps

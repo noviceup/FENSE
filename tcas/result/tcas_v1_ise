@@ -1,0 +1,32 @@
+KLEE: output directory is "/home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/./klee-out-65"
+KLEE: Using STP solver backend
+1111
+222
+Memory: 1 0
+Memory: 1
+[0;1;34mEarly terminated11: 0x278b480
+[0mKLEE: ERROR: /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v1.c:59: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+[0;1;34mEarly terminated11: 0x27699d0
+[0m[0;1;34mEarly terminated11: 0x27733b0
+[0mmemory: 12
+KLEE: ERROR: /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v1.c:204: ASSERTION FAIL: ret==0
+KLEE: NOTE: now ignoring this error at this location
+ERROR: no information about this function1!
+[0;1;34mEarly terminated11: 0x26af6b0
+[0m[0;1;34m
+Run Time: 4.805000e+01 8.939537e+00
+Analysis Time: 0.000000e+00
+Update State Time: 6.447900e-02
+Update Summary Time: 9.581400e-02
+Prune State Time: 8.678200e-02 1.101000e-02 5.044000e-03
+Setting: dise & ise & isum --> 0 1 0
+Max Memory: 12
+[0mElapsed: 00:00:48
+
+
+KLEE: done: total instructions = 75667
+KLEE: done: completed paths = 837
+KLEE: done: generated tests = 0
+40.74user 3.30system 0:48.09elapsed 91%CPU (0avgtext+0avgdata 32420maxresident)k
+0inputs+336outputs (0major+2927465minor)pagefaults 0swaps

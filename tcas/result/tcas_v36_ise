@@ -1,0 +1,2036 @@
+KLEE: output directory is "/home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/./klee-out-94"
+KLEE: Using STP solver backend
+1111
+222
+Memory: 1 0
+Memory: 1
+KLEE: WARNING: undefined reference to function: fprintf
+KLEE: WARNING: undefined reference to variable: stdout
+KLEE: WARNING ONCE: calling external: fprintf(140134964777984, 27814704, 0) at /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v36.c:207
+0
+0
+0
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1b92bb0
+[0mKLEE: ERROR: /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v36.c:60: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1dfc5a0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1dfc5a0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1dfc5a0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1dfc5a0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1dfc5a0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1dfc5a0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1dc3ee0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1dfc5a0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1dfc5a0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1dc3ee0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1dc3ee0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1dfc5a0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1dfc5a0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1e1d010
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1dc3ee0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1dfc5a0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1da2a40
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1efccd0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1d85410
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1d83150
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1d83ac0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f04900
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1d73c80
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1d73c80
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1d73c80
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1d73c80
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f0e1f0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f0e1f0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f0e1f0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f0e1f0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1d07100
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1d07100
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1d2dbc0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f16190
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1d07100
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1d328c0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1ba9f40
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1ba9880
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1ba9880
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1ba9880
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1ba9880
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1d314b0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1ba9880
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1ba9880
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1ba9880
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1ba9880
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1ba9880
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f27fd0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f27fd0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f2fc90
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1d058c0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f2ad50
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f2ad50
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f321c0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f2ad50
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f30ce0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f2ad80
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f2ad50
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f2ad50
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f2ad50
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1ce6180
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1ce58e0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1cdd790
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1cdd790
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f36af0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f36af0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f36af0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f382f0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f39560
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f39560
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f3ac90
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1cbbd70
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1cbabf0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1cb9220
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1cb9220
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1cb9220
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1cb9220
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f43b90
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f43b90
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f43b90
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1ca3e60
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c9bb10
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c9b3b0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c98a30
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f44980
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f45aa0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f45aa0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f45aa0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c84a30
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c82c70
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c82ea0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c7efb0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c7e0e0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1eff360
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f692c0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c7cc10
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c761e0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c761d0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c74500
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f97ab0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c3c9d0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c3e390
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c3db40
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c37e60
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c414a0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c3bf10
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f99be0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c28ef0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c26180
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c2ac50
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1f9c0a0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c2dc20
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1facac0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fafcb0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c09360
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bf7a80
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c082c0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c04390
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb03a0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bf6350
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bfdf50
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bfdf50
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bf7710
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bfdf50
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bfd580
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bfb080
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bea040
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bdff90
+[0m1
+1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c010d0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bf4f30
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c00fe0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bded50
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bdc440
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bd6b50
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bdc440
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bdc440
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bdc440
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bdc440
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bdc440
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c00fe0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bc8820
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1be7af0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1be7af0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1b90040
+[0mKLEE: ERROR: /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v36.c:60: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20c5ba0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x20a7f10
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20c0f40
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x20a5b70
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20b4d90
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x20a7190
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20c0f40
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x20a6d40
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20c0f40
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x20a4c60
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20a4c60
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x20a2690
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20a5b70
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x20a00b0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20a00b0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x208c830
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20a00b0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2098390
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20c1480
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x20996a0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20b5060
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x20913b0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x209ba40
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2091180
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20a4c60
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2092090
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20a00b0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x20887c0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20c95d0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2087b10
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20c98f0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2088c40
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20c1210
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2084680
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2084680
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x207e7e0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x209c1f0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2087850
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x208e750
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2086db0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x208e750
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2084b70
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x208e750
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2081200
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x209c1f0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x207f130
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x207ce10
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x207d040
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x209c1f0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x207b0e0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2086ae0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2075690
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x207aa70
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2072810
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x207aa70
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2071460
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x207fd30
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x206f740
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20743c0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x206ee30
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x206ee30
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x206ce70
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x206e920
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x206afe0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x208c430
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2068c30
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x208c430
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2065c30
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20660b0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x208c430
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2068830
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x209ec20
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2062fb0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2083760
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2062850
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20942a0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x205d970
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20b62f0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x205e210
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x205b940
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x208d5e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2059750
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x205dde0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2058300
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x205dde0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x20564a0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x205dde0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2058a50
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20578a0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20563d0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2054740
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x205c150
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2054ad0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x204f4f0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x204ef20
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2056d20
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x204c1d0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2056d20
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2048000
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2056d20
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2039bf0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2039bb0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x204abb0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x204ef20
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2042660
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2039bb0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2046d30
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x204ef20
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x203ee10
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2039bb0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2042b50
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2042660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x203bb90
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2039bb0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2038c00
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2042660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x20367f0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2042660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x20307e0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2042660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2030b50
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2039bb0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x202d610
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2039bb0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x202f070
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2042660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x20290f0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2042660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x202afc0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20290f0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2024100
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2042660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x20233f0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2024660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x201b740
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2024660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2014a70
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2024660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2021190
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2024660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x201bd00
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2021190
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x201cdd0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2024660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2015900
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2021190
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2016d20
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2024660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2013890
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2024660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x200d800
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2013440
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2010450
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2021190
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2011190
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2024660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x200ef90
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2024660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2007ac0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2024660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x200ab30
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2042660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2007890
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2021190
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x20022c0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2021190
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2001f90
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2021190
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2002540
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2021190
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2000500
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2021190
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1ffe480
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2042660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1ffb5c0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2021190
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1ff9620
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1ff8b80
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1ff7880
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2042660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1ff57e0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1ff8b80
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1ff3910
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1ff8b80
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fefd20
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1ff8b80
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fedbc0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1ff8b80
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1feed30
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2042660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fece00
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2042660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fe8d40
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1ff8b80
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fe67b0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2042660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fe6020
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2042660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fe2990
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1ff8b80
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fe1780
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fe25a0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fdf800
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fe25a0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fdd5a0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1ff8b80
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fddd20
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1ff2da0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fd6d00
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fdaa50
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fd6790
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1ff2da0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fd3ef0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fd4b10
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fd25b0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1ff2da0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fd0980
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1ff2da0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fce080
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1ff2da0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fcc660
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fcc660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fcb140
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fcc660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fc86b0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fcc660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fc3330
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fcc660
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fc3100
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fc9f60
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fc1780
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fc2dc0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fc1050
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fc2dc0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fbef90
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fc9f60
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fbd050
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fc9f60
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fbb110
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fc10e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fb9220
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fc9f60
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fb7440
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb71e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fb2c60
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb71e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fb4e80
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb71e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1bcc620
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb71e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1fae670
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x20004c0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1bd6440
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb71e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1bcad00
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb71e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1bf9700
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1eaf3e0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb71e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1bc9910
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb71e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1bc5250
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb71e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1faf580
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb71e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1beafd0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb71e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1c06050
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb71e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1bf38e0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb71e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1bd46d0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1bce3c0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1bf4f30
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb71e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1d225b0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1bce3c0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1bded50
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1bce3c0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1bdf740
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1bdf740
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1b90040
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1bdf740
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1b5a080
+[0m0
+0
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bdf740
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2099230
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x214f740
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2145af0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x216c720
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x213d790
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2140c90
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2135de0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2192ce0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x21300b0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x21361c0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x21361c0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2130e80
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2130e80
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2121f10
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2129200
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2128080
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2123640
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2128fd0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2122ba0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x211c5f0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x211b110
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2142670
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x211a910
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x21c7e30
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2129500
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x21c7e60
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2129500
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2129500
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x21e38f0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x210a550
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x210a550
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x21c7b10
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x21fb1f0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2106910
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2109510
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2109510
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x21fb1f0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2105440
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20fdc30
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x22230b0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x22230b0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x222b920
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20fc860
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20f5470
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20f10f0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x223c810
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x223c810
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2230960
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2230960
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20ee1c0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2230960
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2230960
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2230960
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20e6150
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20e8380
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20e23c0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20e23c0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20dde80
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20d6c00
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20d4b40
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x224da20
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20e7310
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20e53c0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x225f7f0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2071fc0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2268610
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2268610
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x200ceb0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2085e60
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20d3ee0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20d33b0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2289f10
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2289f10
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fd7200
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fd7200
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20b73b0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fd7200
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fd7200
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fd7200
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fd7200
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fd7200
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fd7200
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fd7200
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fd7200
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fd7200
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fd7200
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2018470
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fd29a0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x229d820
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x206db40
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x22b30c0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1ff9f40
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1ff9930
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x207b0e0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2003960
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20482c0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1ff0d60
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x202a4c0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x22cc280
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2045580
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2019560
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2060740
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x22d36b0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x22d3790
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2006df0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x202c510
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb4e80
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb4e80
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb4e80
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb4e80
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1ffded0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1ffded0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bda100
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1ffded0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x22e3420
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1ffded0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fe35b0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fc96d0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fc96d0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x203fe10
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fc96d0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x22f76f0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x201d7b0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20133b0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20269e0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x22f4c70
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fc3100
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x22fb620
+[0m1
+1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fbd230
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2026210
+[0m1
+memory: 8
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x202da10
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x200e920
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x200e920
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fca2b0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2310ff0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1faf530
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2312220
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x20004c0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x2317f30
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1beafd0
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1c06030
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bdf740
+[0m1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1fb71e0
+[0mKLEE: ERROR: /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v36.c:204: ASSERTION FAIL: ret==2
+KLEE: NOTE: now ignoring this error at this location
+1
+prune10: 140
+[0;1;34mEarly terminated3: 140 0x1bce3c0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429330
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2428010
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x242b4e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2423aa0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2426500
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2423630
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2423aa0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x241a620
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2422090
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x241eb20
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x241eb20
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2416cb0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x241eb20
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2410db0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2410db0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x240cc70
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2410db0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2415590
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2421910
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2410ac0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2410e10
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x240ec60
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2421b90
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x24035a0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x240ec60
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x240ada0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x24035a0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x24021c0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429550
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x24039b0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x24038c0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2402ec0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2402ec0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2402a10
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2402ec0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2400c40
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2402a10
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2401360
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2428790
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23ff270
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2428680
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23fd040
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x24211f0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23fae00
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2427ac0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23f8d00
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2428750
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23f6be0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2426d40
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23f4ca0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x242bdc0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23ef110
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2428050
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23ecfe0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2428b50
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23eaf00
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x24213e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23e8ea0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x24267e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23e8500
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23dee10
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23e6a90
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23dedd0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23e4950
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2428cc0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23e4040
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23dee60
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23e0270
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x242b6f0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23de6b0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23e2450
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23e0260
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23dc8c0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d9d20
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23db7c0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23e36f0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23dc430
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x233b750
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23d5260
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23e27b0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23d4a20
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23dfde0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23d1460
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23da3f0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23d47f0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23cb920
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2424500
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23ccb30
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23ead70
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23ce4f0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23c7400
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23c5fd0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23c4ca0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23c27f0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x233aa00
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23c0610
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23ead70
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23be990
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23bca10
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d4110
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23b85f0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23b8c40
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23b6b40
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23b42d0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23b25c0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23b1ea0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23aff10
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23ae040
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23ac1f0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23a8820
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23a8b20
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23a57a0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23a3940
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23a14a0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x239f3a0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x239ef50
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x239e290
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x239b880
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2399a20
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2397bc0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23966c0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2394e90
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2395690
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2395a20
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2390200
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x238e3a0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x238c3b0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x238a670
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2388810
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23870e0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2384880
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2383330
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2380bd0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2381050
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x237f360
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x237d660
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x237b900
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2376f90
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23752d0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2373950
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23722d0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x236fe70
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x236e2a0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x236ca70
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x236a9a0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23691d0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2367100
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2365a80
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2363df0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2361930
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2360140
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x235f870
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x235c5f0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x235a700
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x234e4e0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2357ce0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2355f20
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2354360
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2352650
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23508d0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x2429860
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x234f0a0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x234cdd0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x234b8f0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x234b190
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23e36f0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23478b0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2346bd0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2344eb0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23432e0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2341690
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2340170
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x233e630
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x233c620
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2339080
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2337110
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23359b0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2333ec0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23322f0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23306a0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x232eb50
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x232cd20
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x232a0d0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2328cd0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2320720
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2325660
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23217d0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x233be90
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2098ec0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2321380
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d99e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x2321ca0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x23d40e0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1bce3c0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1bce3c0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x23220d0
+[0mprune10: 140
+[0;1;34mEarly terminated3: 140 0x1bce3c0
+[0mprune10: 136
+[0;1;34mEarly terminated3: 136 0x1bded50
+[0m[0;1;34m
+Run Time: 3.978000e+01 9.604854e+00
+Analysis Time: 0.000000e+00
+Update State Time: 8.497900e-02
+Update Summary Time: 6.355000e-02
+Prune State Time: 2.026330e-01 1.158000e-02 5.774000e-03
+Setting: dise & ise & isum --> 0 1 0
+Max Memory: 8
+[0m0
+Elapsed: 00:00:40
+
+
+KLEE: done: total instructions = 85274
+KLEE: done: completed paths = 1151
+KLEE: done: generated tests = 0
+34.24user 2.44system 0:39.80elapsed 92%CPU (0avgtext+0avgdata 29032maxresident)k
+0inputs+408outputs (0major+1954927minor)pagefaults 0swaps

@@ -1,0 +1,36 @@
+KLEE: output directory is "/home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/./klee-out-89"
+KLEE: Using STP solver backend
+KLEE: WARNING: undefined reference to function: fprintf
+KLEE: WARNING: undefined reference to function: klee_assert
+KLEE: WARNING: undefined reference to variable: stdout
+KLEE: WARNING ONCE: calling external: fprintf(140424209740800, 40253600, 0) at /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v37.c:192
+0
+0
+0
+0
+0
+2
+0
+0
+1
+0
+0
+0
+0
+2
+0
+KLEE: WARNING ONCE: calling external: klee_assert(0) at /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v37.c:189
+KLEE: ERROR: /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v37.c:189: failed external call: klee_assert
+KLEE: NOTE: now ignoring this error at this location
+0
+Max Memory: 0
+1
+0
+Elapsed: 00:00:00
+
+
+KLEE: done: total instructions = 1692
+KLEE: done: completed paths = 19
+KLEE: done: generated tests = 0
+0.16user 0.01system 0:00.23elapsed 77%CPU (0avgtext+0avgdata 15848maxresident)k
+0inputs+256outputs (0major+12000minor)pagefaults 0swaps

@@ -1,0 +1,4813 @@
+KLEE: output directory is "/home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/./klee-out-5"
+KLEE: Using STP solver backend
+1111
+222
+In computeACNAWN change lines: 41
+111
+Num: 0 8
+333
+true2
+  store i32 %48, i32* %result.i2.i.i, align 4, !dbg !183
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:44                                      ; preds = %Inhibit_Biased_Climb.exit.i.i
+  %45 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %46 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %47 = icmp sle i32 %45, %46, !dbg !183
+  %48 = zext i1 %47 to i32, !dbg !183
+  store i32 %48, i32* %result.i2.i.i, align 4, !dbg !183
+  %49 = load i32* %result.i2.i.i, align 4, !dbg !183
+  %50 = icmp ne i32 %49, 0, !dbg !184
+  br i1 %50, label %51, label %66, !dbg !184
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:44                                      ; preds = %Inhibit_Biased_Climb.exit.i.i
+  %45 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %46 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %47 = icmp sle i32 %45, %46, !dbg !183
+  %48 = zext i1 %47 to i32, !dbg !183
+  store i32 %48, i32* %result.i2.i.i, align 4, !dbg !183
+  %49 = load i32* %result.i2.i.i, align 4, !dbg !183
+  %50 = icmp ne i32 %49, 0, !dbg !184
+  br i1 %50, label %51, label %66, !dbg !184
+
+add8
+  br i1 %43, label %44, label %69, !dbg !181
+
+; <label>:44                                      ; preds = %Inhibit_Biased_Climb.exit.i.i
+  %45 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %46 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %47 = icmp sle i32 %45, %46, !dbg !183
+  %48 = zext i1 %47 to i32, !dbg !183
+  store i32 %48, i32* %result.i2.i.i, align 4, !dbg !183
+  %49 = load i32* %result.i2.i.i, align 4, !dbg !183
+  %50 = icmp ne i32 %49, 0, !dbg !184
+  br i1 %50, label %51, label %66, !dbg !184
+
+true2
+  store i32 %55, i32* %result.i1.i.i, align 4, !dbg !183
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:51                                      ; preds = %44
+  %52 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %53 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %54 = icmp sle i32 %52, %53, !dbg !183
+  %55 = zext i1 %54 to i32, !dbg !183
+  store i32 %55, i32* %result.i1.i.i, align 4, !dbg !183
+  %56 = load i32* %result.i1.i.i, align 4, !dbg !183
+  %57 = icmp ne i32 %56, 0, !dbg !184
+  br i1 %57, label %58, label %66, !dbg !184
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:51                                      ; preds = %44
+  %52 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %53 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %54 = icmp sle i32 %52, %53, !dbg !183
+  %55 = zext i1 %54 to i32, !dbg !183
+  store i32 %55, i32* %result.i1.i.i, align 4, !dbg !183
+  %56 = load i32* %result.i1.i.i, align 4, !dbg !183
+  %57 = icmp ne i32 %56, 0, !dbg !184
+  br i1 %57, label %58, label %66, !dbg !184
+
+add8
+  br i1 %43, label %44, label %69, !dbg !181
+
+; <label>:51                                      ; preds = %44
+  %52 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %53 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %54 = icmp sle i32 %52, %53, !dbg !183
+  %55 = zext i1 %54 to i32, !dbg !183
+  store i32 %55, i32* %result.i1.i.i, align 4, !dbg !183
+  %56 = load i32* %result.i1.i.i, align 4, !dbg !183
+  %57 = icmp ne i32 %56, 0, !dbg !184
+  br i1 %57, label %58, label %66, !dbg !184
+
+add8
+  br i1 %50, label %51, label %66, !dbg !184
+
+; <label>:51                                      ; preds = %44
+  %52 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %53 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %54 = icmp sle i32 %52, %53, !dbg !183
+  %55 = zext i1 %54 to i32, !dbg !183
+  store i32 %55, i32* %result.i1.i.i, align 4, !dbg !183
+  %56 = load i32* %result.i1.i.i, align 4, !dbg !183
+  %57 = icmp ne i32 %56, 0, !dbg !184
+  br i1 %57, label %58, label %66, !dbg !184
+
+true2
+  store i32 %73, i32* %result.i.i.i, align 4, !dbg !189
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:69                                      ; preds = %Inhibit_Biased_Climb.exit.i.i
+  %70 = load i32* @Other_Tracked_Alt, align 4, !dbg !189
+  %71 = load i32* @Own_Tracked_Alt, align 4, !dbg !189
+  %72 = icmp sle i32 %70, %71, !dbg !189
+  %73 = zext i1 %72 to i32, !dbg !189
+  store i32 %73, i32* %result.i.i.i, align 4, !dbg !189
+  %74 = load i32* %result.i.i.i, align 4, !dbg !189
+  %75 = icmp ne i32 %74, 0, !dbg !190
+  %76 = load i32* @Cur_Vertical_Sep, align 4, !dbg !190
+  %77 = icmp sge i32 %76, 300, !dbg !190
+  %or.cond7 = and i1 %75, %77, !dbg !190
+  br i1 %or.cond7, label %78, label %85, !dbg !190
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:69                                      ; preds = %Inhibit_Biased_Climb.exit.i.i
+  %70 = load i32* @Other_Tracked_Alt, align 4, !dbg !189
+  %71 = load i32* @Own_Tracked_Alt, align 4, !dbg !189
+  %72 = icmp sle i32 %70, %71, !dbg !189
+  %73 = zext i1 %72 to i32, !dbg !189
+  store i32 %73, i32* %result.i.i.i, align 4, !dbg !189
+  %74 = load i32* %result.i.i.i, align 4, !dbg !189
+  %75 = icmp ne i32 %74, 0, !dbg !190
+  %76 = load i32* @Cur_Vertical_Sep, align 4, !dbg !190
+  %77 = icmp sge i32 %76, 300, !dbg !190
+  %or.cond7 = and i1 %75, %77, !dbg !190
+  br i1 %or.cond7, label %78, label %85, !dbg !190
+
+add8
+  br i1 %43, label %44, label %69, !dbg !181
+
+; <label>:69                                      ; preds = %Inhibit_Biased_Climb.exit.i.i
+  %70 = load i32* @Other_Tracked_Alt, align 4, !dbg !189
+  %71 = load i32* @Own_Tracked_Alt, align 4, !dbg !189
+  %72 = icmp sle i32 %70, %71, !dbg !189
+  %73 = zext i1 %72 to i32, !dbg !189
+  store i32 %73, i32* %result.i.i.i, align 4, !dbg !189
+  %74 = load i32* %result.i.i.i, align 4, !dbg !189
+  %75 = icmp ne i32 %74, 0, !dbg !190
+  %76 = load i32* @Cur_Vertical_Sep, align 4, !dbg !190
+  %77 = icmp sge i32 %76, 300, !dbg !190
+  %or.cond7 = and i1 %75, %77, !dbg !190
+  br i1 %or.cond7, label %78, label %85, !dbg !190
+
+true2
+  store i32 %94, i32* %result.i9.i, align 4, !dbg !195
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:90                                      ; preds = %Non_Crossing_Biased_Climb.exit.i
+  %91 = load i32* @Own_Tracked_Alt, align 4, !dbg !195
+  %92 = load i32* @Other_Tracked_Alt, align 4, !dbg !195
+  %93 = icmp sle i32 %91, %92, !dbg !195
+  %94 = zext i1 %93 to i32, !dbg !195
+  store i32 %94, i32* %result.i9.i, align 4, !dbg !195
+  %95 = load i32* %result.i9.i, align 4, !dbg !195
+  %96 = icmp ne i32 %95, 0, !dbg !196
+  br label %Inhibit_Biased_Climb.exit.i8.i
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:90                                      ; preds = %Non_Crossing_Biased_Climb.exit.i
+  %91 = load i32* @Own_Tracked_Alt, align 4, !dbg !195
+  %92 = load i32* @Other_Tracked_Alt, align 4, !dbg !195
+  %93 = icmp sle i32 %91, %92, !dbg !195
+  %94 = zext i1 %93 to i32, !dbg !195
+  store i32 %94, i32* %result.i9.i, align 4, !dbg !195
+  %95 = load i32* %result.i9.i, align 4, !dbg !195
+  %96 = icmp ne i32 %95, 0, !dbg !196
+  br label %Inhibit_Biased_Climb.exit.i8.i
+
+add8
+  br i1 %89, label %90, label %Inhibit_Biased_Climb.exit.i8.i, !dbg !179
+
+; <label>:90                                      ; preds = %Non_Crossing_Biased_Climb.exit.i
+  %91 = load i32* @Own_Tracked_Alt, align 4, !dbg !195
+  %92 = load i32* @Other_Tracked_Alt, align 4, !dbg !195
+  %93 = icmp sle i32 %91, %92, !dbg !195
+  %94 = zext i1 %93 to i32, !dbg !195
+  store i32 %94, i32* %result.i9.i, align 4, !dbg !195
+  %95 = load i32* %result.i9.i, align 4, !dbg !195
+  %96 = icmp ne i32 %95, 0, !dbg !196
+  br label %Inhibit_Biased_Climb.exit.i8.i
+
+true2
+  store i32 %113, i32* %result.i2.i2.i, align 4, !dbg !202
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:109                                     ; preds = %Inhibit_Biased_Climb.exit.i8.i
+  %110 = load i32* @Own_Tracked_Alt, align 4, !dbg !202
+  %111 = load i32* @Other_Tracked_Alt, align 4, !dbg !202
+  %112 = icmp sle i32 %110, %111, !dbg !202
+  %113 = zext i1 %112 to i32, !dbg !202
+  store i32 %113, i32* %result.i2.i2.i, align 4, !dbg !202
+  %114 = load i32* %result.i2.i2.i, align 4, !dbg !202
+  %115 = icmp ne i32 %114, 0, !dbg !203
+  %116 = load i32* @Cur_Vertical_Sep, align 4, !dbg !203
+  %117 = icmp sge i32 %116, 300, !dbg !203
+  %or.cond9 = and i1 %115, %117, !dbg !203
+  br i1 %or.cond9, label %118, label %125, !dbg !203
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:109                                     ; preds = %Inhibit_Biased_Climb.exit.i8.i
+  %110 = load i32* @Own_Tracked_Alt, align 4, !dbg !202
+  %111 = load i32* @Other_Tracked_Alt, align 4, !dbg !202
+  %112 = icmp sle i32 %110, %111, !dbg !202
+  %113 = zext i1 %112 to i32, !dbg !202
+  store i32 %113, i32* %result.i2.i2.i, align 4, !dbg !202
+  %114 = load i32* %result.i2.i2.i, align 4, !dbg !202
+  %115 = icmp ne i32 %114, 0, !dbg !203
+  %116 = load i32* @Cur_Vertical_Sep, align 4, !dbg !203
+  %117 = icmp sge i32 %116, 300, !dbg !203
+  %or.cond9 = and i1 %115, %117, !dbg !203
+  br i1 %or.cond9, label %118, label %125, !dbg !203
+
+add8
+  br i1 %108, label %109, label %128, !dbg !200
+
+; <label>:109                                     ; preds = %Inhibit_Biased_Climb.exit.i8.i
+  %110 = load i32* @Own_Tracked_Alt, align 4, !dbg !202
+  %111 = load i32* @Other_Tracked_Alt, align 4, !dbg !202
+  %112 = icmp sle i32 %110, %111, !dbg !202
+  %113 = zext i1 %112 to i32, !dbg !202
+  store i32 %113, i32* %result.i2.i2.i, align 4, !dbg !202
+  %114 = load i32* %result.i2.i2.i, align 4, !dbg !202
+  %115 = icmp ne i32 %114, 0, !dbg !203
+  %116 = load i32* @Cur_Vertical_Sep, align 4, !dbg !203
+  %117 = icmp sge i32 %116, 300, !dbg !203
+  %or.cond9 = and i1 %115, %117, !dbg !203
+  br i1 %or.cond9, label %118, label %125, !dbg !203
+
+true2
+  store i32 %132, i32* %result.i1.i3.i, align 4, !dbg !208
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:128                                     ; preds = %Inhibit_Biased_Climb.exit.i8.i
+  %129 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %130 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %131 = icmp sle i32 %129, %130, !dbg !208
+  %132 = zext i1 %131 to i32, !dbg !208
+  store i32 %132, i32* %result.i1.i3.i, align 4, !dbg !208
+  %133 = load i32* %result.i1.i3.i, align 4, !dbg !208
+  %134 = icmp ne i32 %133, 0, !dbg !209
+  br i1 %134, label %135, label %149, !dbg !209
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:128                                     ; preds = %Inhibit_Biased_Climb.exit.i8.i
+  %129 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %130 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %131 = icmp sle i32 %129, %130, !dbg !208
+  %132 = zext i1 %131 to i32, !dbg !208
+  store i32 %132, i32* %result.i1.i3.i, align 4, !dbg !208
+  %133 = load i32* %result.i1.i3.i, align 4, !dbg !208
+  %134 = icmp ne i32 %133, 0, !dbg !209
+  br i1 %134, label %135, label %149, !dbg !209
+
+add8
+  br i1 %108, label %109, label %128, !dbg !200
+
+; <label>:128                                     ; preds = %Inhibit_Biased_Climb.exit.i8.i
+  %129 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %130 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %131 = icmp sle i32 %129, %130, !dbg !208
+  %132 = zext i1 %131 to i32, !dbg !208
+  store i32 %132, i32* %result.i1.i3.i, align 4, !dbg !208
+  %133 = load i32* %result.i1.i3.i, align 4, !dbg !208
+  %134 = icmp ne i32 %133, 0, !dbg !209
+  br i1 %134, label %135, label %149, !dbg !209
+
+true2
+  store i32 %139, i32* %result.i.i4.i, align 4, !dbg !208
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:135                                     ; preds = %128
+  %136 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %137 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %138 = icmp sle i32 %136, %137, !dbg !208
+  %139 = zext i1 %138 to i32, !dbg !208
+  store i32 %139, i32* %result.i.i4.i, align 4, !dbg !208
+  %140 = load i32* %result.i.i4.i, align 4, !dbg !208
+  %141 = icmp ne i32 %140, 0, !dbg !209
+  br i1 %141, label %142, label %149, !dbg !209
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:135                                     ; preds = %128
+  %136 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %137 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %138 = icmp sle i32 %136, %137, !dbg !208
+  %139 = zext i1 %138 to i32, !dbg !208
+  store i32 %139, i32* %result.i.i4.i, align 4, !dbg !208
+  %140 = load i32* %result.i.i4.i, align 4, !dbg !208
+  %141 = icmp ne i32 %140, 0, !dbg !209
+  br i1 %141, label %142, label %149, !dbg !209
+
+add8
+  br i1 %108, label %109, label %128, !dbg !200
+
+; <label>:135                                     ; preds = %128
+  %136 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %137 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %138 = icmp sle i32 %136, %137, !dbg !208
+  %139 = zext i1 %138 to i32, !dbg !208
+  store i32 %139, i32* %result.i.i4.i, align 4, !dbg !208
+  %140 = load i32* %result.i.i4.i, align 4, !dbg !208
+  %141 = icmp ne i32 %140, 0, !dbg !209
+  br i1 %141, label %142, label %149, !dbg !209
+
+add8
+  br i1 %134, label %135, label %149, !dbg !209
+
+; <label>:135                                     ; preds = %128
+  %136 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %137 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %138 = icmp sle i32 %136, %137, !dbg !208
+  %139 = zext i1 %138 to i32, !dbg !208
+  store i32 %139, i32* %result.i.i4.i, align 4, !dbg !208
+  %140 = load i32* %result.i.i4.i, align 4, !dbg !208
+  %141 = icmp ne i32 %140, 0, !dbg !209
+  br i1 %141, label %142, label %149, !dbg !209
+
+true2
+  store i32 %158, i32* %result.i1.i, align 4, !dbg !214
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:154                                     ; preds = %Non_Crossing_Biased_Descend.exit.i
+  %155 = load i32* @Other_Tracked_Alt, align 4, !dbg !214
+  %156 = load i32* @Own_Tracked_Alt, align 4, !dbg !214
+  %157 = icmp sle i32 %155, %156, !dbg !214
+  %158 = zext i1 %157 to i32, !dbg !214
+  store i32 %158, i32* %result.i1.i, align 4, !dbg !214
+  %159 = load i32* %result.i1.i, align 4, !dbg !214
+  %160 = icmp ne i32 %159, 0, !dbg !215
+  br label %161
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:154                                     ; preds = %Non_Crossing_Biased_Descend.exit.i
+  %155 = load i32* @Other_Tracked_Alt, align 4, !dbg !214
+  %156 = load i32* @Own_Tracked_Alt, align 4, !dbg !214
+  %157 = icmp sle i32 %155, %156, !dbg !214
+  %158 = zext i1 %157 to i32, !dbg !214
+  store i32 %158, i32* %result.i1.i, align 4, !dbg !214
+  %159 = load i32* %result.i1.i, align 4, !dbg !214
+  %160 = icmp ne i32 %159, 0, !dbg !215
+  br label %161
+
+add8
+  br i1 %153, label %154, label %161, !dbg !199
+
+; <label>:154                                     ; preds = %Non_Crossing_Biased_Descend.exit.i
+  %155 = load i32* @Other_Tracked_Alt, align 4, !dbg !214
+  %156 = load i32* @Own_Tracked_Alt, align 4, !dbg !214
+  %157 = icmp sle i32 %155, %156, !dbg !214
+  %158 = zext i1 %157 to i32, !dbg !214
+  store i32 %158, i32* %result.i1.i, align 4, !dbg !214
+  %159 = load i32* %result.i1.i, align 4, !dbg !214
+  %160 = icmp ne i32 %159, 0, !dbg !215
+  br label %161
+
+222
+add5
+  store i32 %68, i32* %result.i.i, align 4
+add5
+  br i1 %57, label %58, label %66, !dbg !184
+add5
+  store i32 %163, i32* %need_downward_RA.i, align 4
+add5
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+add5
+  br i1 %175, label %176, label %177, !dbg !222
+add5
+  store i32 %98, i32* %need_upward_RA.i, align 4
+add5
+  br i1 %or.cond7, label %78, label %85, !dbg !190
+add5
+  store i32 %87, i32* %result.i.i, align 4
+add5
+  br i1 %171, label %172, label %173, !dbg !219
+add5
+  br i1 %or.cond9, label %118, label %125, !dbg !203
+add5
+  store i32 %127, i32* %result.i7.i, align 4
+add5
+  store i32 %151, i32* %result.i7.i, align 4
+add5
+  br i1 %141, label %142, label %149, !dbg !209
+size: 0 15 8 23
+Num: 15 23
+add4
+  br i1 %50, label %51, label %66, !dbg !184
+  br i1 %43, label %44, label %69, !dbg !181
+add4
+  br i1 %57, label %58, label %66, !dbg !184
+  br i1 %43, label %44, label %69, !dbg !181
+add4
+  br i1 %or.cond7, label %78, label %85, !dbg !190
+  br i1 %43, label %44, label %69, !dbg !181
+add4
+  br i1 %57, label %58, label %66, !dbg !184
+  br i1 %50, label %51, label %66, !dbg !184
+add4
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %43, label %44, label %69, !dbg !181
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %50, label %51, label %66, !dbg !184
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %57, label %58, label %66, !dbg !184
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %or.cond7, label %78, label %85, !dbg !190
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %89, label %90, label %Inhibit_Biased_Climb.exit.i8.i, !dbg !179
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %108, label %109, label %128, !dbg !200
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %or.cond9, label %118, label %125, !dbg !203
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %134, label %135, label %149, !dbg !209
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %141, label %142, label %149, !dbg !209
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %153, label %154, label %161, !dbg !199
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %171, label %172, label %173, !dbg !219
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %175, label %176, label %177, !dbg !222
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %43, label %44, label %69, !dbg !181
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %50, label %51, label %66, !dbg !184
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %57, label %58, label %66, !dbg !184
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %or.cond7, label %78, label %85, !dbg !190
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %89, label %90, label %Inhibit_Biased_Climb.exit.i8.i, !dbg !179
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %108, label %109, label %128, !dbg !200
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %or.cond9, label %118, label %125, !dbg !203
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %134, label %135, label %149, !dbg !209
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %141, label %142, label %149, !dbg !209
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %153, label %154, label %161, !dbg !199
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %171, label %172, label %173, !dbg !219
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %175, label %176, label %177, !dbg !222
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %171, label %172, label %173, !dbg !219
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+add4
+  br i1 %175, label %176, label %177, !dbg !222
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+add4
+  br i1 %or.cond9, label %118, label %125, !dbg !203
+  br i1 %108, label %109, label %128, !dbg !200
+add4
+  br i1 %134, label %135, label %149, !dbg !209
+  br i1 %108, label %109, label %128, !dbg !200
+add4
+  br i1 %141, label %142, label %149, !dbg !209
+  br i1 %108, label %109, label %128, !dbg !200
+add4
+  br i1 %141, label %142, label %149, !dbg !209
+  br i1 %134, label %135, label %149, !dbg !209
+add4
+  br i1 %175, label %176, label %177, !dbg !222
+  br i1 %171, label %172, label %173, !dbg !219
+333
+true2
+  store i32 400, i32* getelementptr inbounds ([4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 0), align 4, !dbg !153
+true3
+  %10 = icmp sgt i32 %9, 600, !dbg !170
+add8
+  br i1 %or.cond, label %8, label %11, !dbg !170
+
+; <label>:8                                       ; preds = %0
+  %9 = load i32* @Cur_Vertical_Sep, align 4, !dbg !170
+  %10 = icmp sgt i32 %9, 600, !dbg !170
+  br label %11
+
+true2
+  store i32 %13, i32* %enabled.i, align 4
+true3
+  %21 = icmp eq i32 %20, 0, !dbg !173
+add8
+  br i1 %18, label %19, label %22, !dbg !173
+
+; <label>:19                                      ; preds = %11
+  %20 = load i32* @Other_RAC, align 4, !dbg !173
+  %21 = icmp eq i32 %20, 0, !dbg !173
+  br label %22
+
+true2
+  store i32 %24, i32* %intent_not_known.i, align 4
+true1
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:27                                      ; preds = %22
+  %28 = load i32* %tcas_equipped.i, align 4, !dbg !175
+  %29 = icmp ne i32 %28, 0, !dbg !175
+  %30 = load i32* %intent_not_known.i, align 4, !dbg !175
+  %31 = icmp ne i32 %30, 0, !dbg !175
+  %or.cond3 = and i1 %29, %31, !dbg !175
+  %or.cond3.not = xor i1 %or.cond3, true, !dbg !175
+  %32 = load i32* %tcas_equipped.i, align 4, !dbg !175
+  %33 = icmp ne i32 %32, 0, !dbg !175
+  %or.cond5 = and i1 %or.cond3.not, %33, !dbg !175
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+true2
+  store i32 %41, i32* %upward_preferred.i.i, align 4, !dbg !178
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+Inhibit_Biased_Climb.exit.i.i:                    ; preds = %27
+  %34 = load i32* @Climb_Inhibit, align 4, !dbg !177
+  %35 = icmp ne i32 %34, 0, !dbg !177
+  %36 = load i32* @Up_Separation, align 4, !dbg !177
+  %37 = add nsw i32 %36, 100, !dbg !177
+  %38 = select i1 %35, i32 %37, i32 %36, !dbg !177
+  %39 = load i32* @Down_Separation, align 4, !dbg !178
+  %40 = icmp sgt i32 %38, %39, !dbg !178
+  %41 = zext i1 %40 to i32, !dbg !178
+  store i32 %41, i32* %upward_preferred.i.i, align 4, !dbg !178
+  %42 = load i32* %upward_preferred.i.i, align 4, !dbg !181
+  %43 = icmp ne i32 %42, 0, !dbg !181
+  br i1 %43, label %44, label %69, !dbg !181
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+Inhibit_Biased_Climb.exit.i.i:                    ; preds = %27
+  %34 = load i32* @Climb_Inhibit, align 4, !dbg !177
+  %35 = icmp ne i32 %34, 0, !dbg !177
+  %36 = load i32* @Up_Separation, align 4, !dbg !177
+  %37 = add nsw i32 %36, 100, !dbg !177
+  %38 = select i1 %35, i32 %37, i32 %36, !dbg !177
+  %39 = load i32* @Down_Separation, align 4, !dbg !178
+  %40 = icmp sgt i32 %38, %39, !dbg !178
+  %41 = zext i1 %40 to i32, !dbg !178
+  store i32 %41, i32* %upward_preferred.i.i, align 4, !dbg !178
+  %42 = load i32* %upward_preferred.i.i, align 4, !dbg !181
+  %43 = icmp ne i32 %42, 0, !dbg !181
+  br i1 %43, label %44, label %69, !dbg !181
+
+true2
+  store i32 %48, i32* %result.i2.i.i, align 4, !dbg !183
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:44                                      ; preds = %Inhibit_Biased_Climb.exit.i.i
+  %45 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %46 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %47 = icmp sle i32 %45, %46, !dbg !183
+  %48 = zext i1 %47 to i32, !dbg !183
+  store i32 %48, i32* %result.i2.i.i, align 4, !dbg !183
+  %49 = load i32* %result.i2.i.i, align 4, !dbg !183
+  %50 = icmp ne i32 %49, 0, !dbg !184
+  br i1 %50, label %51, label %66, !dbg !184
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:44                                      ; preds = %Inhibit_Biased_Climb.exit.i.i
+  %45 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %46 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %47 = icmp sle i32 %45, %46, !dbg !183
+  %48 = zext i1 %47 to i32, !dbg !183
+  store i32 %48, i32* %result.i2.i.i, align 4, !dbg !183
+  %49 = load i32* %result.i2.i.i, align 4, !dbg !183
+  %50 = icmp ne i32 %49, 0, !dbg !184
+  br i1 %50, label %51, label %66, !dbg !184
+
+add8
+  br i1 %43, label %44, label %69, !dbg !181
+
+; <label>:44                                      ; preds = %Inhibit_Biased_Climb.exit.i.i
+  %45 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %46 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %47 = icmp sle i32 %45, %46, !dbg !183
+  %48 = zext i1 %47 to i32, !dbg !183
+  store i32 %48, i32* %result.i2.i.i, align 4, !dbg !183
+  %49 = load i32* %result.i2.i.i, align 4, !dbg !183
+  %50 = icmp ne i32 %49, 0, !dbg !184
+  br i1 %50, label %51, label %66, !dbg !184
+
+true2
+  store i32 %55, i32* %result.i1.i.i, align 4, !dbg !183
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:51                                      ; preds = %44
+  %52 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %53 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %54 = icmp sle i32 %52, %53, !dbg !183
+  %55 = zext i1 %54 to i32, !dbg !183
+  store i32 %55, i32* %result.i1.i.i, align 4, !dbg !183
+  %56 = load i32* %result.i1.i.i, align 4, !dbg !183
+  %57 = icmp ne i32 %56, 0, !dbg !184
+  br i1 %57, label %58, label %66, !dbg !184
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:51                                      ; preds = %44
+  %52 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %53 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %54 = icmp sle i32 %52, %53, !dbg !183
+  %55 = zext i1 %54 to i32, !dbg !183
+  store i32 %55, i32* %result.i1.i.i, align 4, !dbg !183
+  %56 = load i32* %result.i1.i.i, align 4, !dbg !183
+  %57 = icmp ne i32 %56, 0, !dbg !184
+  br i1 %57, label %58, label %66, !dbg !184
+
+add8
+  br i1 %43, label %44, label %69, !dbg !181
+
+; <label>:51                                      ; preds = %44
+  %52 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %53 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %54 = icmp sle i32 %52, %53, !dbg !183
+  %55 = zext i1 %54 to i32, !dbg !183
+  store i32 %55, i32* %result.i1.i.i, align 4, !dbg !183
+  %56 = load i32* %result.i1.i.i, align 4, !dbg !183
+  %57 = icmp ne i32 %56, 0, !dbg !184
+  br i1 %57, label %58, label %66, !dbg !184
+
+add8
+  br i1 %50, label %51, label %66, !dbg !184
+
+; <label>:51                                      ; preds = %44
+  %52 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %53 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %54 = icmp sle i32 %52, %53, !dbg !183
+  %55 = zext i1 %54 to i32, !dbg !183
+  store i32 %55, i32* %result.i1.i.i, align 4, !dbg !183
+  %56 = load i32* %result.i1.i.i, align 4, !dbg !183
+  %57 = icmp ne i32 %56, 0, !dbg !184
+  br i1 %57, label %58, label %66, !dbg !184
+
+true3
+  %65 = xor i1 %64, true, !dbg !187
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:58                                      ; preds = %51
+  %59 = load i32* @Down_Separation, align 4, !dbg !184
+  %60 = load i32* @Alt_Layer_Value, align 4, !dbg !186
+  %61 = sext i32 %60 to i64, !dbg !186
+  %62 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %61, !dbg !186
+  %63 = load i32* %62, align 4, !dbg !186
+  %64 = icmp sge i32 %59, %63, !dbg !187
+  %65 = xor i1 %64, true, !dbg !187
+  br label %66
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:58                                      ; preds = %51
+  %59 = load i32* @Down_Separation, align 4, !dbg !184
+  %60 = load i32* @Alt_Layer_Value, align 4, !dbg !186
+  %61 = sext i32 %60 to i64, !dbg !186
+  %62 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %61, !dbg !186
+  %63 = load i32* %62, align 4, !dbg !186
+  %64 = icmp sge i32 %59, %63, !dbg !187
+  %65 = xor i1 %64, true, !dbg !187
+  br label %66
+
+add8
+  br i1 %43, label %44, label %69, !dbg !181
+
+; <label>:58                                      ; preds = %51
+  %59 = load i32* @Down_Separation, align 4, !dbg !184
+  %60 = load i32* @Alt_Layer_Value, align 4, !dbg !186
+  %61 = sext i32 %60 to i64, !dbg !186
+  %62 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %61, !dbg !186
+  %63 = load i32* %62, align 4, !dbg !186
+  %64 = icmp sge i32 %59, %63, !dbg !187
+  %65 = xor i1 %64, true, !dbg !187
+  br label %66
+
+add8
+  br i1 %50, label %51, label %66, !dbg !184
+
+; <label>:58                                      ; preds = %51
+  %59 = load i32* @Down_Separation, align 4, !dbg !184
+  %60 = load i32* @Alt_Layer_Value, align 4, !dbg !186
+  %61 = sext i32 %60 to i64, !dbg !186
+  %62 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %61, !dbg !186
+  %63 = load i32* %62, align 4, !dbg !186
+  %64 = icmp sge i32 %59, %63, !dbg !187
+  %65 = xor i1 %64, true, !dbg !187
+  br label %66
+
+add8
+  br i1 %57, label %58, label %66, !dbg !184
+
+; <label>:58                                      ; preds = %51
+  %59 = load i32* @Down_Separation, align 4, !dbg !184
+  %60 = load i32* @Alt_Layer_Value, align 4, !dbg !186
+  %61 = sext i32 %60 to i64, !dbg !186
+  %62 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %61, !dbg !186
+  %63 = load i32* %62, align 4, !dbg !186
+  %64 = icmp sge i32 %59, %63, !dbg !187
+  %65 = xor i1 %64, true, !dbg !187
+  br label %66
+
+true2
+  store i32 %68, i32* %result.i.i, align 4
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:66                                      ; preds = %51, %58, %44
+  %67 = phi i1 [ true, %44 ], [ false, %51 ], [ %65, %58 ]
+  %68 = zext i1 %67 to i32
+  store i32 %68, i32* %result.i.i, align 4
+  br label %Non_Crossing_Biased_Climb.exit.i, !dbg !188
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:66                                      ; preds = %51, %58, %44
+  %67 = phi i1 [ true, %44 ], [ false, %51 ], [ %65, %58 ]
+  %68 = zext i1 %67 to i32
+  store i32 %68, i32* %result.i.i, align 4
+  br label %Non_Crossing_Biased_Climb.exit.i, !dbg !188
+
+add8
+  br i1 %43, label %44, label %69, !dbg !181
+
+; <label>:66                                      ; preds = %51, %58, %44
+  %67 = phi i1 [ true, %44 ], [ false, %51 ], [ %65, %58 ]
+  %68 = zext i1 %67 to i32
+  store i32 %68, i32* %result.i.i, align 4
+  br label %Non_Crossing_Biased_Climb.exit.i, !dbg !188
+
+true2
+  store i32 %73, i32* %result.i.i.i, align 4, !dbg !189
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:69                                      ; preds = %Inhibit_Biased_Climb.exit.i.i
+  %70 = load i32* @Other_Tracked_Alt, align 4, !dbg !189
+  %71 = load i32* @Own_Tracked_Alt, align 4, !dbg !189
+  %72 = icmp sle i32 %70, %71, !dbg !189
+  %73 = zext i1 %72 to i32, !dbg !189
+  store i32 %73, i32* %result.i.i.i, align 4, !dbg !189
+  %74 = load i32* %result.i.i.i, align 4, !dbg !189
+  %75 = icmp ne i32 %74, 0, !dbg !190
+  %76 = load i32* @Cur_Vertical_Sep, align 4, !dbg !190
+  %77 = icmp sge i32 %76, 300, !dbg !190
+  %or.cond7 = and i1 %75, %77, !dbg !190
+  br i1 %or.cond7, label %78, label %85, !dbg !190
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:69                                      ; preds = %Inhibit_Biased_Climb.exit.i.i
+  %70 = load i32* @Other_Tracked_Alt, align 4, !dbg !189
+  %71 = load i32* @Own_Tracked_Alt, align 4, !dbg !189
+  %72 = icmp sle i32 %70, %71, !dbg !189
+  %73 = zext i1 %72 to i32, !dbg !189
+  store i32 %73, i32* %result.i.i.i, align 4, !dbg !189
+  %74 = load i32* %result.i.i.i, align 4, !dbg !189
+  %75 = icmp ne i32 %74, 0, !dbg !190
+  %76 = load i32* @Cur_Vertical_Sep, align 4, !dbg !190
+  %77 = icmp sge i32 %76, 300, !dbg !190
+  %or.cond7 = and i1 %75, %77, !dbg !190
+  br i1 %or.cond7, label %78, label %85, !dbg !190
+
+add8
+  br i1 %43, label %44, label %69, !dbg !181
+
+; <label>:69                                      ; preds = %Inhibit_Biased_Climb.exit.i.i
+  %70 = load i32* @Other_Tracked_Alt, align 4, !dbg !189
+  %71 = load i32* @Own_Tracked_Alt, align 4, !dbg !189
+  %72 = icmp sle i32 %70, %71, !dbg !189
+  %73 = zext i1 %72 to i32, !dbg !189
+  store i32 %73, i32* %result.i.i.i, align 4, !dbg !189
+  %74 = load i32* %result.i.i.i, align 4, !dbg !189
+  %75 = icmp ne i32 %74, 0, !dbg !190
+  %76 = load i32* @Cur_Vertical_Sep, align 4, !dbg !190
+  %77 = icmp sge i32 %76, 300, !dbg !190
+  %or.cond7 = and i1 %75, %77, !dbg !190
+  br i1 %or.cond7, label %78, label %85, !dbg !190
+
+true3
+  %84 = icmp sge i32 %79, %83, !dbg !193
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:78                                      ; preds = %69
+  %79 = load i32* @Up_Separation, align 4, !dbg !190
+  %80 = load i32* @Alt_Layer_Value, align 4, !dbg !192
+  %81 = sext i32 %80 to i64, !dbg !192
+  %82 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %81, !dbg !192
+  %83 = load i32* %82, align 4, !dbg !192
+  %84 = icmp sge i32 %79, %83, !dbg !193
+  br label %85
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:78                                      ; preds = %69
+  %79 = load i32* @Up_Separation, align 4, !dbg !190
+  %80 = load i32* @Alt_Layer_Value, align 4, !dbg !192
+  %81 = sext i32 %80 to i64, !dbg !192
+  %82 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %81, !dbg !192
+  %83 = load i32* %82, align 4, !dbg !192
+  %84 = icmp sge i32 %79, %83, !dbg !193
+  br label %85
+
+add8
+  br i1 %43, label %44, label %69, !dbg !181
+
+; <label>:78                                      ; preds = %69
+  %79 = load i32* @Up_Separation, align 4, !dbg !190
+  %80 = load i32* @Alt_Layer_Value, align 4, !dbg !192
+  %81 = sext i32 %80 to i64, !dbg !192
+  %82 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %81, !dbg !192
+  %83 = load i32* %82, align 4, !dbg !192
+  %84 = icmp sge i32 %79, %83, !dbg !193
+  br label %85
+
+add8
+  br i1 %or.cond7, label %78, label %85, !dbg !190
+
+; <label>:78                                      ; preds = %69
+  %79 = load i32* @Up_Separation, align 4, !dbg !190
+  %80 = load i32* @Alt_Layer_Value, align 4, !dbg !192
+  %81 = sext i32 %80 to i64, !dbg !192
+  %82 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %81, !dbg !192
+  %83 = load i32* %82, align 4, !dbg !192
+  %84 = icmp sge i32 %79, %83, !dbg !193
+  br label %85
+
+true2
+  store i32 %87, i32* %result.i.i, align 4
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:85                                      ; preds = %78, %69
+  %86 = phi i1 [ false, %69 ], [ %84, %78 ]
+  %87 = zext i1 %86 to i32
+  store i32 %87, i32* %result.i.i, align 4
+  br label %Non_Crossing_Biased_Climb.exit.i
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:85                                      ; preds = %78, %69
+  %86 = phi i1 [ false, %69 ], [ %84, %78 ]
+  %87 = zext i1 %86 to i32
+  store i32 %87, i32* %result.i.i, align 4
+  br label %Non_Crossing_Biased_Climb.exit.i
+
+add8
+  br i1 %43, label %44, label %69, !dbg !181
+
+; <label>:85                                      ; preds = %78, %69
+  %86 = phi i1 [ false, %69 ], [ %84, %78 ]
+  %87 = zext i1 %86 to i32
+  store i32 %87, i32* %result.i.i, align 4
+  br label %Non_Crossing_Biased_Climb.exit.i
+
+true1
+  br i1 %89, label %90, label %Inhibit_Biased_Climb.exit.i8.i, !dbg !179
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+Non_Crossing_Biased_Climb.exit.i:                 ; preds = %85, %66
+  %88 = load i32* %result.i.i, align 4, !dbg !194
+  %89 = icmp ne i32 %88, 0, !dbg !179
+  br i1 %89, label %90, label %Inhibit_Biased_Climb.exit.i8.i, !dbg !179
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+Non_Crossing_Biased_Climb.exit.i:                 ; preds = %85, %66
+  %88 = load i32* %result.i.i, align 4, !dbg !194
+  %89 = icmp ne i32 %88, 0, !dbg !179
+  br i1 %89, label %90, label %Inhibit_Biased_Climb.exit.i8.i, !dbg !179
+
+true2
+  store i32 %94, i32* %result.i9.i, align 4, !dbg !195
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:90                                      ; preds = %Non_Crossing_Biased_Climb.exit.i
+  %91 = load i32* @Own_Tracked_Alt, align 4, !dbg !195
+  %92 = load i32* @Other_Tracked_Alt, align 4, !dbg !195
+  %93 = icmp sle i32 %91, %92, !dbg !195
+  %94 = zext i1 %93 to i32, !dbg !195
+  store i32 %94, i32* %result.i9.i, align 4, !dbg !195
+  %95 = load i32* %result.i9.i, align 4, !dbg !195
+  %96 = icmp ne i32 %95, 0, !dbg !196
+  br label %Inhibit_Biased_Climb.exit.i8.i
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:90                                      ; preds = %Non_Crossing_Biased_Climb.exit.i
+  %91 = load i32* @Own_Tracked_Alt, align 4, !dbg !195
+  %92 = load i32* @Other_Tracked_Alt, align 4, !dbg !195
+  %93 = icmp sle i32 %91, %92, !dbg !195
+  %94 = zext i1 %93 to i32, !dbg !195
+  store i32 %94, i32* %result.i9.i, align 4, !dbg !195
+  %95 = load i32* %result.i9.i, align 4, !dbg !195
+  %96 = icmp ne i32 %95, 0, !dbg !196
+  br label %Inhibit_Biased_Climb.exit.i8.i
+
+add8
+  br i1 %89, label %90, label %Inhibit_Biased_Climb.exit.i8.i, !dbg !179
+
+; <label>:90                                      ; preds = %Non_Crossing_Biased_Climb.exit.i
+  %91 = load i32* @Own_Tracked_Alt, align 4, !dbg !195
+  %92 = load i32* @Other_Tracked_Alt, align 4, !dbg !195
+  %93 = icmp sle i32 %91, %92, !dbg !195
+  %94 = zext i1 %93 to i32, !dbg !195
+  store i32 %94, i32* %result.i9.i, align 4, !dbg !195
+  %95 = load i32* %result.i9.i, align 4, !dbg !195
+  %96 = icmp ne i32 %95, 0, !dbg !196
+  br label %Inhibit_Biased_Climb.exit.i8.i
+
+true2
+  store i32 %98, i32* %need_upward_RA.i, align 4
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+Inhibit_Biased_Climb.exit.i8.i:                   ; preds = %90, %Non_Crossing_Biased_Climb.exit.i
+  %97 = phi i1 [ false, %Non_Crossing_Biased_Climb.exit.i ], [ %96, %90 ]
+  %98 = zext i1 %97 to i32
+  store i32 %98, i32* %need_upward_RA.i, align 4
+  %99 = load i32* @Climb_Inhibit, align 4, !dbg !197
+  %100 = icmp ne i32 %99, 0, !dbg !197
+  %101 = load i32* @Up_Separation, align 4, !dbg !197
+  %102 = add nsw i32 %101, 100, !dbg !197
+  %103 = select i1 %100, i32 %102, i32 %101, !dbg !197
+  %104 = load i32* @Down_Separation, align 4, !dbg !198
+  %105 = icmp sgt i32 %103, %104, !dbg !198
+  %106 = zext i1 %105 to i32, !dbg !198
+  store i32 %106, i32* %upward_preferred.i5.i, align 4, !dbg !198
+  %107 = load i32* %upward_preferred.i5.i, align 4, !dbg !200
+  %108 = icmp ne i32 %107, 0, !dbg !200
+  br i1 %108, label %109, label %128, !dbg !200
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+Inhibit_Biased_Climb.exit.i8.i:                   ; preds = %90, %Non_Crossing_Biased_Climb.exit.i
+  %97 = phi i1 [ false, %Non_Crossing_Biased_Climb.exit.i ], [ %96, %90 ]
+  %98 = zext i1 %97 to i32
+  store i32 %98, i32* %need_upward_RA.i, align 4
+  %99 = load i32* @Climb_Inhibit, align 4, !dbg !197
+  %100 = icmp ne i32 %99, 0, !dbg !197
+  %101 = load i32* @Up_Separation, align 4, !dbg !197
+  %102 = add nsw i32 %101, 100, !dbg !197
+  %103 = select i1 %100, i32 %102, i32 %101, !dbg !197
+  %104 = load i32* @Down_Separation, align 4, !dbg !198
+  %105 = icmp sgt i32 %103, %104, !dbg !198
+  %106 = zext i1 %105 to i32, !dbg !198
+  store i32 %106, i32* %upward_preferred.i5.i, align 4, !dbg !198
+  %107 = load i32* %upward_preferred.i5.i, align 4, !dbg !200
+  %108 = icmp ne i32 %107, 0, !dbg !200
+  br i1 %108, label %109, label %128, !dbg !200
+
+true2
+  store i32 %113, i32* %result.i2.i2.i, align 4, !dbg !202
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:109                                     ; preds = %Inhibit_Biased_Climb.exit.i8.i
+  %110 = load i32* @Own_Tracked_Alt, align 4, !dbg !202
+  %111 = load i32* @Other_Tracked_Alt, align 4, !dbg !202
+  %112 = icmp sle i32 %110, %111, !dbg !202
+  %113 = zext i1 %112 to i32, !dbg !202
+  store i32 %113, i32* %result.i2.i2.i, align 4, !dbg !202
+  %114 = load i32* %result.i2.i2.i, align 4, !dbg !202
+  %115 = icmp ne i32 %114, 0, !dbg !203
+  %116 = load i32* @Cur_Vertical_Sep, align 4, !dbg !203
+  %117 = icmp sge i32 %116, 300, !dbg !203
+  %or.cond9 = and i1 %115, %117, !dbg !203
+  br i1 %or.cond9, label %118, label %125, !dbg !203
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:109                                     ; preds = %Inhibit_Biased_Climb.exit.i8.i
+  %110 = load i32* @Own_Tracked_Alt, align 4, !dbg !202
+  %111 = load i32* @Other_Tracked_Alt, align 4, !dbg !202
+  %112 = icmp sle i32 %110, %111, !dbg !202
+  %113 = zext i1 %112 to i32, !dbg !202
+  store i32 %113, i32* %result.i2.i2.i, align 4, !dbg !202
+  %114 = load i32* %result.i2.i2.i, align 4, !dbg !202
+  %115 = icmp ne i32 %114, 0, !dbg !203
+  %116 = load i32* @Cur_Vertical_Sep, align 4, !dbg !203
+  %117 = icmp sge i32 %116, 300, !dbg !203
+  %or.cond9 = and i1 %115, %117, !dbg !203
+  br i1 %or.cond9, label %118, label %125, !dbg !203
+
+add8
+  br i1 %108, label %109, label %128, !dbg !200
+
+; <label>:109                                     ; preds = %Inhibit_Biased_Climb.exit.i8.i
+  %110 = load i32* @Own_Tracked_Alt, align 4, !dbg !202
+  %111 = load i32* @Other_Tracked_Alt, align 4, !dbg !202
+  %112 = icmp sle i32 %110, %111, !dbg !202
+  %113 = zext i1 %112 to i32, !dbg !202
+  store i32 %113, i32* %result.i2.i2.i, align 4, !dbg !202
+  %114 = load i32* %result.i2.i2.i, align 4, !dbg !202
+  %115 = icmp ne i32 %114, 0, !dbg !203
+  %116 = load i32* @Cur_Vertical_Sep, align 4, !dbg !203
+  %117 = icmp sge i32 %116, 300, !dbg !203
+  %or.cond9 = and i1 %115, %117, !dbg !203
+  br i1 %or.cond9, label %118, label %125, !dbg !203
+
+true3
+  %124 = icmp sge i32 %119, %123, !dbg !206
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:118                                     ; preds = %109
+  %119 = load i32* @Down_Separation, align 4, !dbg !203
+  %120 = load i32* @Alt_Layer_Value, align 4, !dbg !205
+  %121 = sext i32 %120 to i64, !dbg !205
+  %122 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %121, !dbg !205
+  %123 = load i32* %122, align 4, !dbg !205
+  %124 = icmp sge i32 %119, %123, !dbg !206
+  br label %125
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:118                                     ; preds = %109
+  %119 = load i32* @Down_Separation, align 4, !dbg !203
+  %120 = load i32* @Alt_Layer_Value, align 4, !dbg !205
+  %121 = sext i32 %120 to i64, !dbg !205
+  %122 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %121, !dbg !205
+  %123 = load i32* %122, align 4, !dbg !205
+  %124 = icmp sge i32 %119, %123, !dbg !206
+  br label %125
+
+add8
+  br i1 %108, label %109, label %128, !dbg !200
+
+; <label>:118                                     ; preds = %109
+  %119 = load i32* @Down_Separation, align 4, !dbg !203
+  %120 = load i32* @Alt_Layer_Value, align 4, !dbg !205
+  %121 = sext i32 %120 to i64, !dbg !205
+  %122 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %121, !dbg !205
+  %123 = load i32* %122, align 4, !dbg !205
+  %124 = icmp sge i32 %119, %123, !dbg !206
+  br label %125
+
+add8
+  br i1 %or.cond9, label %118, label %125, !dbg !203
+
+; <label>:118                                     ; preds = %109
+  %119 = load i32* @Down_Separation, align 4, !dbg !203
+  %120 = load i32* @Alt_Layer_Value, align 4, !dbg !205
+  %121 = sext i32 %120 to i64, !dbg !205
+  %122 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %121, !dbg !205
+  %123 = load i32* %122, align 4, !dbg !205
+  %124 = icmp sge i32 %119, %123, !dbg !206
+  br label %125
+
+true2
+  store i32 %127, i32* %result.i7.i, align 4
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:125                                     ; preds = %118, %109
+  %126 = phi i1 [ false, %109 ], [ %124, %118 ]
+  %127 = zext i1 %126 to i32
+  store i32 %127, i32* %result.i7.i, align 4
+  br label %Non_Crossing_Biased_Descend.exit.i, !dbg !207
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:125                                     ; preds = %118, %109
+  %126 = phi i1 [ false, %109 ], [ %124, %118 ]
+  %127 = zext i1 %126 to i32
+  store i32 %127, i32* %result.i7.i, align 4
+  br label %Non_Crossing_Biased_Descend.exit.i, !dbg !207
+
+add8
+  br i1 %108, label %109, label %128, !dbg !200
+
+; <label>:125                                     ; preds = %118, %109
+  %126 = phi i1 [ false, %109 ], [ %124, %118 ]
+  %127 = zext i1 %126 to i32
+  store i32 %127, i32* %result.i7.i, align 4
+  br label %Non_Crossing_Biased_Descend.exit.i, !dbg !207
+
+true2
+  store i32 %132, i32* %result.i1.i3.i, align 4, !dbg !208
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:128                                     ; preds = %Inhibit_Biased_Climb.exit.i8.i
+  %129 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %130 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %131 = icmp sle i32 %129, %130, !dbg !208
+  %132 = zext i1 %131 to i32, !dbg !208
+  store i32 %132, i32* %result.i1.i3.i, align 4, !dbg !208
+  %133 = load i32* %result.i1.i3.i, align 4, !dbg !208
+  %134 = icmp ne i32 %133, 0, !dbg !209
+  br i1 %134, label %135, label %149, !dbg !209
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:128                                     ; preds = %Inhibit_Biased_Climb.exit.i8.i
+  %129 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %130 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %131 = icmp sle i32 %129, %130, !dbg !208
+  %132 = zext i1 %131 to i32, !dbg !208
+  store i32 %132, i32* %result.i1.i3.i, align 4, !dbg !208
+  %133 = load i32* %result.i1.i3.i, align 4, !dbg !208
+  %134 = icmp ne i32 %133, 0, !dbg !209
+  br i1 %134, label %135, label %149, !dbg !209
+
+add8
+  br i1 %108, label %109, label %128, !dbg !200
+
+; <label>:128                                     ; preds = %Inhibit_Biased_Climb.exit.i8.i
+  %129 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %130 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %131 = icmp sle i32 %129, %130, !dbg !208
+  %132 = zext i1 %131 to i32, !dbg !208
+  store i32 %132, i32* %result.i1.i3.i, align 4, !dbg !208
+  %133 = load i32* %result.i1.i3.i, align 4, !dbg !208
+  %134 = icmp ne i32 %133, 0, !dbg !209
+  br i1 %134, label %135, label %149, !dbg !209
+
+true2
+  store i32 %139, i32* %result.i.i4.i, align 4, !dbg !208
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:135                                     ; preds = %128
+  %136 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %137 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %138 = icmp sle i32 %136, %137, !dbg !208
+  %139 = zext i1 %138 to i32, !dbg !208
+  store i32 %139, i32* %result.i.i4.i, align 4, !dbg !208
+  %140 = load i32* %result.i.i4.i, align 4, !dbg !208
+  %141 = icmp ne i32 %140, 0, !dbg !209
+  br i1 %141, label %142, label %149, !dbg !209
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:135                                     ; preds = %128
+  %136 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %137 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %138 = icmp sle i32 %136, %137, !dbg !208
+  %139 = zext i1 %138 to i32, !dbg !208
+  store i32 %139, i32* %result.i.i4.i, align 4, !dbg !208
+  %140 = load i32* %result.i.i4.i, align 4, !dbg !208
+  %141 = icmp ne i32 %140, 0, !dbg !209
+  br i1 %141, label %142, label %149, !dbg !209
+
+add8
+  br i1 %108, label %109, label %128, !dbg !200
+
+; <label>:135                                     ; preds = %128
+  %136 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %137 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %138 = icmp sle i32 %136, %137, !dbg !208
+  %139 = zext i1 %138 to i32, !dbg !208
+  store i32 %139, i32* %result.i.i4.i, align 4, !dbg !208
+  %140 = load i32* %result.i.i4.i, align 4, !dbg !208
+  %141 = icmp ne i32 %140, 0, !dbg !209
+  br i1 %141, label %142, label %149, !dbg !209
+
+add8
+  br i1 %134, label %135, label %149, !dbg !209
+
+; <label>:135                                     ; preds = %128
+  %136 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %137 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %138 = icmp sle i32 %136, %137, !dbg !208
+  %139 = zext i1 %138 to i32, !dbg !208
+  store i32 %139, i32* %result.i.i4.i, align 4, !dbg !208
+  %140 = load i32* %result.i.i4.i, align 4, !dbg !208
+  %141 = icmp ne i32 %140, 0, !dbg !209
+  br i1 %141, label %142, label %149, !dbg !209
+
+true3
+  %148 = icmp sge i32 %143, %147, !dbg !212
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:142                                     ; preds = %135
+  %143 = load i32* @Up_Separation, align 4, !dbg !209
+  %144 = load i32* @Alt_Layer_Value, align 4, !dbg !211
+  %145 = sext i32 %144 to i64, !dbg !211
+  %146 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %145, !dbg !211
+  %147 = load i32* %146, align 4, !dbg !211
+  %148 = icmp sge i32 %143, %147, !dbg !212
+  br label %149
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:142                                     ; preds = %135
+  %143 = load i32* @Up_Separation, align 4, !dbg !209
+  %144 = load i32* @Alt_Layer_Value, align 4, !dbg !211
+  %145 = sext i32 %144 to i64, !dbg !211
+  %146 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %145, !dbg !211
+  %147 = load i32* %146, align 4, !dbg !211
+  %148 = icmp sge i32 %143, %147, !dbg !212
+  br label %149
+
+add8
+  br i1 %108, label %109, label %128, !dbg !200
+
+; <label>:142                                     ; preds = %135
+  %143 = load i32* @Up_Separation, align 4, !dbg !209
+  %144 = load i32* @Alt_Layer_Value, align 4, !dbg !211
+  %145 = sext i32 %144 to i64, !dbg !211
+  %146 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %145, !dbg !211
+  %147 = load i32* %146, align 4, !dbg !211
+  %148 = icmp sge i32 %143, %147, !dbg !212
+  br label %149
+
+add8
+  br i1 %134, label %135, label %149, !dbg !209
+
+; <label>:142                                     ; preds = %135
+  %143 = load i32* @Up_Separation, align 4, !dbg !209
+  %144 = load i32* @Alt_Layer_Value, align 4, !dbg !211
+  %145 = sext i32 %144 to i64, !dbg !211
+  %146 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %145, !dbg !211
+  %147 = load i32* %146, align 4, !dbg !211
+  %148 = icmp sge i32 %143, %147, !dbg !212
+  br label %149
+
+add8
+  br i1 %141, label %142, label %149, !dbg !209
+
+; <label>:142                                     ; preds = %135
+  %143 = load i32* @Up_Separation, align 4, !dbg !209
+  %144 = load i32* @Alt_Layer_Value, align 4, !dbg !211
+  %145 = sext i32 %144 to i64, !dbg !211
+  %146 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %145, !dbg !211
+  %147 = load i32* %146, align 4, !dbg !211
+  %148 = icmp sge i32 %143, %147, !dbg !212
+  br label %149
+
+true2
+  store i32 %151, i32* %result.i7.i, align 4
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:149                                     ; preds = %135, %142, %128
+  %150 = phi i1 [ true, %128 ], [ false, %135 ], [ %148, %142 ]
+  %151 = zext i1 %150 to i32
+  store i32 %151, i32* %result.i7.i, align 4
+  br label %Non_Crossing_Biased_Descend.exit.i
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:149                                     ; preds = %135, %142, %128
+  %150 = phi i1 [ true, %128 ], [ false, %135 ], [ %148, %142 ]
+  %151 = zext i1 %150 to i32
+  store i32 %151, i32* %result.i7.i, align 4
+  br label %Non_Crossing_Biased_Descend.exit.i
+
+add8
+  br i1 %108, label %109, label %128, !dbg !200
+
+; <label>:149                                     ; preds = %135, %142, %128
+  %150 = phi i1 [ true, %128 ], [ false, %135 ], [ %148, %142 ]
+  %151 = zext i1 %150 to i32
+  store i32 %151, i32* %result.i7.i, align 4
+  br label %Non_Crossing_Biased_Descend.exit.i
+
+true1
+  br i1 %153, label %154, label %161, !dbg !199
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+Non_Crossing_Biased_Descend.exit.i:               ; preds = %149, %125
+  %152 = load i32* %result.i7.i, align 4, !dbg !213
+  %153 = icmp ne i32 %152, 0, !dbg !199
+  br i1 %153, label %154, label %161, !dbg !199
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+Non_Crossing_Biased_Descend.exit.i:               ; preds = %149, %125
+  %152 = load i32* %result.i7.i, align 4, !dbg !213
+  %153 = icmp ne i32 %152, 0, !dbg !199
+  br i1 %153, label %154, label %161, !dbg !199
+
+true2
+  store i32 %158, i32* %result.i1.i, align 4, !dbg !214
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:154                                     ; preds = %Non_Crossing_Biased_Descend.exit.i
+  %155 = load i32* @Other_Tracked_Alt, align 4, !dbg !214
+  %156 = load i32* @Own_Tracked_Alt, align 4, !dbg !214
+  %157 = icmp sle i32 %155, %156, !dbg !214
+  %158 = zext i1 %157 to i32, !dbg !214
+  store i32 %158, i32* %result.i1.i, align 4, !dbg !214
+  %159 = load i32* %result.i1.i, align 4, !dbg !214
+  %160 = icmp ne i32 %159, 0, !dbg !215
+  br label %161
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:154                                     ; preds = %Non_Crossing_Biased_Descend.exit.i
+  %155 = load i32* @Other_Tracked_Alt, align 4, !dbg !214
+  %156 = load i32* @Own_Tracked_Alt, align 4, !dbg !214
+  %157 = icmp sle i32 %155, %156, !dbg !214
+  %158 = zext i1 %157 to i32, !dbg !214
+  store i32 %158, i32* %result.i1.i, align 4, !dbg !214
+  %159 = load i32* %result.i1.i, align 4, !dbg !214
+  %160 = icmp ne i32 %159, 0, !dbg !215
+  br label %161
+
+add8
+  br i1 %153, label %154, label %161, !dbg !199
+
+; <label>:154                                     ; preds = %Non_Crossing_Biased_Descend.exit.i
+  %155 = load i32* @Other_Tracked_Alt, align 4, !dbg !214
+  %156 = load i32* @Own_Tracked_Alt, align 4, !dbg !214
+  %157 = icmp sle i32 %155, %156, !dbg !214
+  %158 = zext i1 %157 to i32, !dbg !214
+  store i32 %158, i32* %result.i1.i, align 4, !dbg !214
+  %159 = load i32* %result.i1.i, align 4, !dbg !214
+  %160 = icmp ne i32 %159, 0, !dbg !215
+  br label %161
+
+true2
+  store i32 %163, i32* %need_downward_RA.i, align 4
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:161                                     ; preds = %154, %Non_Crossing_Biased_Descend.exit.i
+  %162 = phi i1 [ false, %Non_Crossing_Biased_Descend.exit.i ], [ %160, %154 ]
+  %163 = zext i1 %162 to i32
+  store i32 %163, i32* %need_downward_RA.i, align 4
+  %164 = load i32* %need_upward_RA.i, align 4, !dbg !216
+  %165 = icmp ne i32 %164, 0, !dbg !216
+  %166 = load i32* %need_downward_RA.i, align 4, !dbg !216
+  %167 = icmp ne i32 %166, 0, !dbg !216
+  %or.cond11 = and i1 %165, %167, !dbg !216
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:161                                     ; preds = %154, %Non_Crossing_Biased_Descend.exit.i
+  %162 = phi i1 [ false, %Non_Crossing_Biased_Descend.exit.i ], [ %160, %154 ]
+  %163 = zext i1 %162 to i32
+  store i32 %163, i32* %need_downward_RA.i, align 4
+  %164 = load i32* %need_upward_RA.i, align 4, !dbg !216
+  %165 = icmp ne i32 %164, 0, !dbg !216
+  %166 = load i32* %need_downward_RA.i, align 4, !dbg !216
+  %167 = icmp ne i32 %166, 0, !dbg !216
+  %or.cond11 = and i1 %165, %167, !dbg !216
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+
+true2
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !218
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:168                                     ; preds = %161
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !218
+  br label %alt_sep_test.exit, !dbg !218
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:168                                     ; preds = %161
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !218
+  br label %alt_sep_test.exit, !dbg !218
+
+add8
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+
+; <label>:168                                     ; preds = %161
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !218
+  br label %alt_sep_test.exit, !dbg !218
+
+true1
+  br i1 %171, label %172, label %173, !dbg !219
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:169                                     ; preds = %161
+  %170 = load i32* %need_upward_RA.i, align 4, !dbg !219
+  %171 = icmp ne i32 %170, 0, !dbg !219
+  br i1 %171, label %172, label %173, !dbg !219
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:169                                     ; preds = %161
+  %170 = load i32* %need_upward_RA.i, align 4, !dbg !219
+  %171 = icmp ne i32 %170, 0, !dbg !219
+  br i1 %171, label %172, label %173, !dbg !219
+
+add8
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+
+; <label>:169                                     ; preds = %161
+  %170 = load i32* %need_upward_RA.i, align 4, !dbg !219
+  %171 = icmp ne i32 %170, 0, !dbg !219
+  br i1 %171, label %172, label %173, !dbg !219
+
+true2
+  store i32 1, i32* %alt_sep.i, align 4, !dbg !221
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:172                                     ; preds = %169
+  store i32 1, i32* %alt_sep.i, align 4, !dbg !221
+  br label %alt_sep_test.exit, !dbg !221
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:172                                     ; preds = %169
+  store i32 1, i32* %alt_sep.i, align 4, !dbg !221
+  br label %alt_sep_test.exit, !dbg !221
+
+add8
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+
+; <label>:172                                     ; preds = %169
+  store i32 1, i32* %alt_sep.i, align 4, !dbg !221
+  br label %alt_sep_test.exit, !dbg !221
+
+add8
+  br i1 %171, label %172, label %173, !dbg !219
+
+; <label>:172                                     ; preds = %169
+  store i32 1, i32* %alt_sep.i, align 4, !dbg !221
+  br label %alt_sep_test.exit, !dbg !221
+
+true1
+  br i1 %175, label %176, label %177, !dbg !222
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:173                                     ; preds = %169
+  %174 = load i32* %need_downward_RA.i, align 4, !dbg !222
+  %175 = icmp ne i32 %174, 0, !dbg !222
+  br i1 %175, label %176, label %177, !dbg !222
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:173                                     ; preds = %169
+  %174 = load i32* %need_downward_RA.i, align 4, !dbg !222
+  %175 = icmp ne i32 %174, 0, !dbg !222
+  br i1 %175, label %176, label %177, !dbg !222
+
+add8
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+
+; <label>:173                                     ; preds = %169
+  %174 = load i32* %need_downward_RA.i, align 4, !dbg !222
+  %175 = icmp ne i32 %174, 0, !dbg !222
+  br i1 %175, label %176, label %177, !dbg !222
+
+add8
+  br i1 %171, label %172, label %173, !dbg !219
+
+; <label>:173                                     ; preds = %169
+  %174 = load i32* %need_downward_RA.i, align 4, !dbg !222
+  %175 = icmp ne i32 %174, 0, !dbg !222
+  br i1 %175, label %176, label %177, !dbg !222
+
+true2
+  store i32 2, i32* %alt_sep.i, align 4, !dbg !224
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:176                                     ; preds = %173
+  store i32 2, i32* %alt_sep.i, align 4, !dbg !224
+  br label %alt_sep_test.exit, !dbg !224
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:176                                     ; preds = %173
+  store i32 2, i32* %alt_sep.i, align 4, !dbg !224
+  br label %alt_sep_test.exit, !dbg !224
+
+add8
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+
+; <label>:176                                     ; preds = %173
+  store i32 2, i32* %alt_sep.i, align 4, !dbg !224
+  br label %alt_sep_test.exit, !dbg !224
+
+add8
+  br i1 %171, label %172, label %173, !dbg !219
+
+; <label>:176                                     ; preds = %173
+  store i32 2, i32* %alt_sep.i, align 4, !dbg !224
+  br label %alt_sep_test.exit, !dbg !224
+
+add8
+  br i1 %175, label %176, label %177, !dbg !222
+
+; <label>:176                                     ; preds = %173
+  store i32 2, i32* %alt_sep.i, align 4, !dbg !224
+  br label %alt_sep_test.exit, !dbg !224
+
+true2
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !225
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:177                                     ; preds = %173
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !225
+  br label %alt_sep_test.exit
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:177                                     ; preds = %173
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !225
+  br label %alt_sep_test.exit
+
+add8
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+
+; <label>:177                                     ; preds = %173
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !225
+  br label %alt_sep_test.exit
+
+add8
+  br i1 %171, label %172, label %173, !dbg !219
+
+; <label>:177                                     ; preds = %173
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !225
+  br label %alt_sep_test.exit
+
+add8
+  br i1 %175, label %176, label %177, !dbg !222
+
+; <label>:177                                     ; preds = %173
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !225
+  br label %alt_sep_test.exit
+
+222
+add5
+  store i32 %178, i32* %ret, align 4, !dbg !171
+add5
+  br i1 %or.cond35, label %207, label %205, !dbg !227
+add5
+  %210 = call i32 (%struct._IO_FILE*, i8*, ...)* @fprintf(%struct._IO_FILE* %208, i8* getelementptr inbounds ([4 x i8]* @.str14, i32 0, i32 0), i32 %209), !dbg !230
+size: 15 18 23 29
+Num: 18 29
+add4
+  br i1 %50, label %51, label %66, !dbg !184
+  br i1 %43, label %44, label %69, !dbg !181
+add4
+  br i1 %57, label %58, label %66, !dbg !184
+  br i1 %43, label %44, label %69, !dbg !181
+add4
+  br i1 %or.cond7, label %78, label %85, !dbg !190
+  br i1 %43, label %44, label %69, !dbg !181
+add4
+  br i1 %57, label %58, label %66, !dbg !184
+  br i1 %50, label %51, label %66, !dbg !184
+add4
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %43, label %44, label %69, !dbg !181
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %50, label %51, label %66, !dbg !184
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %57, label %58, label %66, !dbg !184
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %or.cond7, label %78, label %85, !dbg !190
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %89, label %90, label %Inhibit_Biased_Climb.exit.i8.i, !dbg !179
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %108, label %109, label %128, !dbg !200
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %or.cond9, label %118, label %125, !dbg !203
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %134, label %135, label %149, !dbg !209
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %141, label %142, label %149, !dbg !209
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %153, label %154, label %161, !dbg !199
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %171, label %172, label %173, !dbg !219
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %175, label %176, label %177, !dbg !222
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+add4
+  br i1 %43, label %44, label %69, !dbg !181
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %50, label %51, label %66, !dbg !184
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %57, label %58, label %66, !dbg !184
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %or.cond7, label %78, label %85, !dbg !190
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %89, label %90, label %Inhibit_Biased_Climb.exit.i8.i, !dbg !179
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %108, label %109, label %128, !dbg !200
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %or.cond9, label %118, label %125, !dbg !203
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %134, label %135, label %149, !dbg !209
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %141, label %142, label %149, !dbg !209
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %153, label %154, label %161, !dbg !199
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %171, label %172, label %173, !dbg !219
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %175, label %176, label %177, !dbg !222
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add4
+  br i1 %171, label %172, label %173, !dbg !219
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+add4
+  br i1 %175, label %176, label %177, !dbg !222
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+add4
+  br i1 %or.cond9, label %118, label %125, !dbg !203
+  br i1 %108, label %109, label %128, !dbg !200
+add4
+  br i1 %134, label %135, label %149, !dbg !209
+  br i1 %108, label %109, label %128, !dbg !200
+add4
+  br i1 %141, label %142, label %149, !dbg !209
+  br i1 %108, label %109, label %128, !dbg !200
+add4
+  br i1 %141, label %142, label %149, !dbg !209
+  br i1 %134, label %135, label %149, !dbg !209
+add4
+  br i1 %175, label %176, label %177, !dbg !222
+  br i1 %171, label %172, label %173, !dbg !219
+333
+true2
+  store i32 400, i32* getelementptr inbounds ([4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 0), align 4, !dbg !153
+true3
+  %10 = icmp sgt i32 %9, 600, !dbg !170
+add8
+  br i1 %or.cond, label %8, label %11, !dbg !170
+
+; <label>:8                                       ; preds = %0
+  %9 = load i32* @Cur_Vertical_Sep, align 4, !dbg !170
+  %10 = icmp sgt i32 %9, 600, !dbg !170
+  br label %11
+
+true2
+  store i32 %13, i32* %enabled.i, align 4
+true3
+  %21 = icmp eq i32 %20, 0, !dbg !173
+add8
+  br i1 %18, label %19, label %22, !dbg !173
+
+; <label>:19                                      ; preds = %11
+  %20 = load i32* @Other_RAC, align 4, !dbg !173
+  %21 = icmp eq i32 %20, 0, !dbg !173
+  br label %22
+
+true2
+  store i32 %24, i32* %intent_not_known.i, align 4
+true1
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:27                                      ; preds = %22
+  %28 = load i32* %tcas_equipped.i, align 4, !dbg !175
+  %29 = icmp ne i32 %28, 0, !dbg !175
+  %30 = load i32* %intent_not_known.i, align 4, !dbg !175
+  %31 = icmp ne i32 %30, 0, !dbg !175
+  %or.cond3 = and i1 %29, %31, !dbg !175
+  %or.cond3.not = xor i1 %or.cond3, true, !dbg !175
+  %32 = load i32* %tcas_equipped.i, align 4, !dbg !175
+  %33 = icmp ne i32 %32, 0, !dbg !175
+  %or.cond5 = and i1 %or.cond3.not, %33, !dbg !175
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+true2
+  store i32 %41, i32* %upward_preferred.i.i, align 4, !dbg !178
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+Inhibit_Biased_Climb.exit.i.i:                    ; preds = %27
+  %34 = load i32* @Climb_Inhibit, align 4, !dbg !177
+  %35 = icmp ne i32 %34, 0, !dbg !177
+  %36 = load i32* @Up_Separation, align 4, !dbg !177
+  %37 = add nsw i32 %36, 100, !dbg !177
+  %38 = select i1 %35, i32 %37, i32 %36, !dbg !177
+  %39 = load i32* @Down_Separation, align 4, !dbg !178
+  %40 = icmp sgt i32 %38, %39, !dbg !178
+  %41 = zext i1 %40 to i32, !dbg !178
+  store i32 %41, i32* %upward_preferred.i.i, align 4, !dbg !178
+  %42 = load i32* %upward_preferred.i.i, align 4, !dbg !181
+  %43 = icmp ne i32 %42, 0, !dbg !181
+  br i1 %43, label %44, label %69, !dbg !181
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+Inhibit_Biased_Climb.exit.i.i:                    ; preds = %27
+  %34 = load i32* @Climb_Inhibit, align 4, !dbg !177
+  %35 = icmp ne i32 %34, 0, !dbg !177
+  %36 = load i32* @Up_Separation, align 4, !dbg !177
+  %37 = add nsw i32 %36, 100, !dbg !177
+  %38 = select i1 %35, i32 %37, i32 %36, !dbg !177
+  %39 = load i32* @Down_Separation, align 4, !dbg !178
+  %40 = icmp sgt i32 %38, %39, !dbg !178
+  %41 = zext i1 %40 to i32, !dbg !178
+  store i32 %41, i32* %upward_preferred.i.i, align 4, !dbg !178
+  %42 = load i32* %upward_preferred.i.i, align 4, !dbg !181
+  %43 = icmp ne i32 %42, 0, !dbg !181
+  br i1 %43, label %44, label %69, !dbg !181
+
+true2
+  store i32 %48, i32* %result.i2.i.i, align 4, !dbg !183
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:44                                      ; preds = %Inhibit_Biased_Climb.exit.i.i
+  %45 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %46 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %47 = icmp sle i32 %45, %46, !dbg !183
+  %48 = zext i1 %47 to i32, !dbg !183
+  store i32 %48, i32* %result.i2.i.i, align 4, !dbg !183
+  %49 = load i32* %result.i2.i.i, align 4, !dbg !183
+  %50 = icmp ne i32 %49, 0, !dbg !184
+  br i1 %50, label %51, label %66, !dbg !184
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:44                                      ; preds = %Inhibit_Biased_Climb.exit.i.i
+  %45 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %46 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %47 = icmp sle i32 %45, %46, !dbg !183
+  %48 = zext i1 %47 to i32, !dbg !183
+  store i32 %48, i32* %result.i2.i.i, align 4, !dbg !183
+  %49 = load i32* %result.i2.i.i, align 4, !dbg !183
+  %50 = icmp ne i32 %49, 0, !dbg !184
+  br i1 %50, label %51, label %66, !dbg !184
+
+add8
+  br i1 %43, label %44, label %69, !dbg !181
+
+; <label>:44                                      ; preds = %Inhibit_Biased_Climb.exit.i.i
+  %45 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %46 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %47 = icmp sle i32 %45, %46, !dbg !183
+  %48 = zext i1 %47 to i32, !dbg !183
+  store i32 %48, i32* %result.i2.i.i, align 4, !dbg !183
+  %49 = load i32* %result.i2.i.i, align 4, !dbg !183
+  %50 = icmp ne i32 %49, 0, !dbg !184
+  br i1 %50, label %51, label %66, !dbg !184
+
+true2
+  store i32 %55, i32* %result.i1.i.i, align 4, !dbg !183
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:51                                      ; preds = %44
+  %52 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %53 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %54 = icmp sle i32 %52, %53, !dbg !183
+  %55 = zext i1 %54 to i32, !dbg !183
+  store i32 %55, i32* %result.i1.i.i, align 4, !dbg !183
+  %56 = load i32* %result.i1.i.i, align 4, !dbg !183
+  %57 = icmp ne i32 %56, 0, !dbg !184
+  br i1 %57, label %58, label %66, !dbg !184
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:51                                      ; preds = %44
+  %52 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %53 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %54 = icmp sle i32 %52, %53, !dbg !183
+  %55 = zext i1 %54 to i32, !dbg !183
+  store i32 %55, i32* %result.i1.i.i, align 4, !dbg !183
+  %56 = load i32* %result.i1.i.i, align 4, !dbg !183
+  %57 = icmp ne i32 %56, 0, !dbg !184
+  br i1 %57, label %58, label %66, !dbg !184
+
+add8
+  br i1 %43, label %44, label %69, !dbg !181
+
+; <label>:51                                      ; preds = %44
+  %52 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %53 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %54 = icmp sle i32 %52, %53, !dbg !183
+  %55 = zext i1 %54 to i32, !dbg !183
+  store i32 %55, i32* %result.i1.i.i, align 4, !dbg !183
+  %56 = load i32* %result.i1.i.i, align 4, !dbg !183
+  %57 = icmp ne i32 %56, 0, !dbg !184
+  br i1 %57, label %58, label %66, !dbg !184
+
+add8
+  br i1 %50, label %51, label %66, !dbg !184
+
+; <label>:51                                      ; preds = %44
+  %52 = load i32* @Own_Tracked_Alt, align 4, !dbg !183
+  %53 = load i32* @Other_Tracked_Alt, align 4, !dbg !183
+  %54 = icmp sle i32 %52, %53, !dbg !183
+  %55 = zext i1 %54 to i32, !dbg !183
+  store i32 %55, i32* %result.i1.i.i, align 4, !dbg !183
+  %56 = load i32* %result.i1.i.i, align 4, !dbg !183
+  %57 = icmp ne i32 %56, 0, !dbg !184
+  br i1 %57, label %58, label %66, !dbg !184
+
+true3
+  %65 = xor i1 %64, true, !dbg !187
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:58                                      ; preds = %51
+  %59 = load i32* @Down_Separation, align 4, !dbg !184
+  %60 = load i32* @Alt_Layer_Value, align 4, !dbg !186
+  %61 = sext i32 %60 to i64, !dbg !186
+  %62 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %61, !dbg !186
+  %63 = load i32* %62, align 4, !dbg !186
+  %64 = icmp sge i32 %59, %63, !dbg !187
+  %65 = xor i1 %64, true, !dbg !187
+  br label %66
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:58                                      ; preds = %51
+  %59 = load i32* @Down_Separation, align 4, !dbg !184
+  %60 = load i32* @Alt_Layer_Value, align 4, !dbg !186
+  %61 = sext i32 %60 to i64, !dbg !186
+  %62 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %61, !dbg !186
+  %63 = load i32* %62, align 4, !dbg !186
+  %64 = icmp sge i32 %59, %63, !dbg !187
+  %65 = xor i1 %64, true, !dbg !187
+  br label %66
+
+add8
+  br i1 %43, label %44, label %69, !dbg !181
+
+; <label>:58                                      ; preds = %51
+  %59 = load i32* @Down_Separation, align 4, !dbg !184
+  %60 = load i32* @Alt_Layer_Value, align 4, !dbg !186
+  %61 = sext i32 %60 to i64, !dbg !186
+  %62 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %61, !dbg !186
+  %63 = load i32* %62, align 4, !dbg !186
+  %64 = icmp sge i32 %59, %63, !dbg !187
+  %65 = xor i1 %64, true, !dbg !187
+  br label %66
+
+add8
+  br i1 %50, label %51, label %66, !dbg !184
+
+; <label>:58                                      ; preds = %51
+  %59 = load i32* @Down_Separation, align 4, !dbg !184
+  %60 = load i32* @Alt_Layer_Value, align 4, !dbg !186
+  %61 = sext i32 %60 to i64, !dbg !186
+  %62 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %61, !dbg !186
+  %63 = load i32* %62, align 4, !dbg !186
+  %64 = icmp sge i32 %59, %63, !dbg !187
+  %65 = xor i1 %64, true, !dbg !187
+  br label %66
+
+add8
+  br i1 %57, label %58, label %66, !dbg !184
+
+; <label>:58                                      ; preds = %51
+  %59 = load i32* @Down_Separation, align 4, !dbg !184
+  %60 = load i32* @Alt_Layer_Value, align 4, !dbg !186
+  %61 = sext i32 %60 to i64, !dbg !186
+  %62 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %61, !dbg !186
+  %63 = load i32* %62, align 4, !dbg !186
+  %64 = icmp sge i32 %59, %63, !dbg !187
+  %65 = xor i1 %64, true, !dbg !187
+  br label %66
+
+true2
+  store i32 %68, i32* %result.i.i, align 4
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:66                                      ; preds = %51, %58, %44
+  %67 = phi i1 [ true, %44 ], [ false, %51 ], [ %65, %58 ]
+  %68 = zext i1 %67 to i32
+  store i32 %68, i32* %result.i.i, align 4
+  br label %Non_Crossing_Biased_Climb.exit.i, !dbg !188
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:66                                      ; preds = %51, %58, %44
+  %67 = phi i1 [ true, %44 ], [ false, %51 ], [ %65, %58 ]
+  %68 = zext i1 %67 to i32
+  store i32 %68, i32* %result.i.i, align 4
+  br label %Non_Crossing_Biased_Climb.exit.i, !dbg !188
+
+add8
+  br i1 %43, label %44, label %69, !dbg !181
+
+; <label>:66                                      ; preds = %51, %58, %44
+  %67 = phi i1 [ true, %44 ], [ false, %51 ], [ %65, %58 ]
+  %68 = zext i1 %67 to i32
+  store i32 %68, i32* %result.i.i, align 4
+  br label %Non_Crossing_Biased_Climb.exit.i, !dbg !188
+
+true2
+  store i32 %73, i32* %result.i.i.i, align 4, !dbg !189
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:69                                      ; preds = %Inhibit_Biased_Climb.exit.i.i
+  %70 = load i32* @Other_Tracked_Alt, align 4, !dbg !189
+  %71 = load i32* @Own_Tracked_Alt, align 4, !dbg !189
+  %72 = icmp sle i32 %70, %71, !dbg !189
+  %73 = zext i1 %72 to i32, !dbg !189
+  store i32 %73, i32* %result.i.i.i, align 4, !dbg !189
+  %74 = load i32* %result.i.i.i, align 4, !dbg !189
+  %75 = icmp ne i32 %74, 0, !dbg !190
+  %76 = load i32* @Cur_Vertical_Sep, align 4, !dbg !190
+  %77 = icmp sge i32 %76, 300, !dbg !190
+  %or.cond7 = and i1 %75, %77, !dbg !190
+  br i1 %or.cond7, label %78, label %85, !dbg !190
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:69                                      ; preds = %Inhibit_Biased_Climb.exit.i.i
+  %70 = load i32* @Other_Tracked_Alt, align 4, !dbg !189
+  %71 = load i32* @Own_Tracked_Alt, align 4, !dbg !189
+  %72 = icmp sle i32 %70, %71, !dbg !189
+  %73 = zext i1 %72 to i32, !dbg !189
+  store i32 %73, i32* %result.i.i.i, align 4, !dbg !189
+  %74 = load i32* %result.i.i.i, align 4, !dbg !189
+  %75 = icmp ne i32 %74, 0, !dbg !190
+  %76 = load i32* @Cur_Vertical_Sep, align 4, !dbg !190
+  %77 = icmp sge i32 %76, 300, !dbg !190
+  %or.cond7 = and i1 %75, %77, !dbg !190
+  br i1 %or.cond7, label %78, label %85, !dbg !190
+
+add8
+  br i1 %43, label %44, label %69, !dbg !181
+
+; <label>:69                                      ; preds = %Inhibit_Biased_Climb.exit.i.i
+  %70 = load i32* @Other_Tracked_Alt, align 4, !dbg !189
+  %71 = load i32* @Own_Tracked_Alt, align 4, !dbg !189
+  %72 = icmp sle i32 %70, %71, !dbg !189
+  %73 = zext i1 %72 to i32, !dbg !189
+  store i32 %73, i32* %result.i.i.i, align 4, !dbg !189
+  %74 = load i32* %result.i.i.i, align 4, !dbg !189
+  %75 = icmp ne i32 %74, 0, !dbg !190
+  %76 = load i32* @Cur_Vertical_Sep, align 4, !dbg !190
+  %77 = icmp sge i32 %76, 300, !dbg !190
+  %or.cond7 = and i1 %75, %77, !dbg !190
+  br i1 %or.cond7, label %78, label %85, !dbg !190
+
+true3
+  %84 = icmp sge i32 %79, %83, !dbg !193
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:78                                      ; preds = %69
+  %79 = load i32* @Up_Separation, align 4, !dbg !190
+  %80 = load i32* @Alt_Layer_Value, align 4, !dbg !192
+  %81 = sext i32 %80 to i64, !dbg !192
+  %82 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %81, !dbg !192
+  %83 = load i32* %82, align 4, !dbg !192
+  %84 = icmp sge i32 %79, %83, !dbg !193
+  br label %85
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:78                                      ; preds = %69
+  %79 = load i32* @Up_Separation, align 4, !dbg !190
+  %80 = load i32* @Alt_Layer_Value, align 4, !dbg !192
+  %81 = sext i32 %80 to i64, !dbg !192
+  %82 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %81, !dbg !192
+  %83 = load i32* %82, align 4, !dbg !192
+  %84 = icmp sge i32 %79, %83, !dbg !193
+  br label %85
+
+add8
+  br i1 %43, label %44, label %69, !dbg !181
+
+; <label>:78                                      ; preds = %69
+  %79 = load i32* @Up_Separation, align 4, !dbg !190
+  %80 = load i32* @Alt_Layer_Value, align 4, !dbg !192
+  %81 = sext i32 %80 to i64, !dbg !192
+  %82 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %81, !dbg !192
+  %83 = load i32* %82, align 4, !dbg !192
+  %84 = icmp sge i32 %79, %83, !dbg !193
+  br label %85
+
+add8
+  br i1 %or.cond7, label %78, label %85, !dbg !190
+
+; <label>:78                                      ; preds = %69
+  %79 = load i32* @Up_Separation, align 4, !dbg !190
+  %80 = load i32* @Alt_Layer_Value, align 4, !dbg !192
+  %81 = sext i32 %80 to i64, !dbg !192
+  %82 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %81, !dbg !192
+  %83 = load i32* %82, align 4, !dbg !192
+  %84 = icmp sge i32 %79, %83, !dbg !193
+  br label %85
+
+true2
+  store i32 %87, i32* %result.i.i, align 4
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:85                                      ; preds = %78, %69
+  %86 = phi i1 [ false, %69 ], [ %84, %78 ]
+  %87 = zext i1 %86 to i32
+  store i32 %87, i32* %result.i.i, align 4
+  br label %Non_Crossing_Biased_Climb.exit.i
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:85                                      ; preds = %78, %69
+  %86 = phi i1 [ false, %69 ], [ %84, %78 ]
+  %87 = zext i1 %86 to i32
+  store i32 %87, i32* %result.i.i, align 4
+  br label %Non_Crossing_Biased_Climb.exit.i
+
+add8
+  br i1 %43, label %44, label %69, !dbg !181
+
+; <label>:85                                      ; preds = %78, %69
+  %86 = phi i1 [ false, %69 ], [ %84, %78 ]
+  %87 = zext i1 %86 to i32
+  store i32 %87, i32* %result.i.i, align 4
+  br label %Non_Crossing_Biased_Climb.exit.i
+
+true1
+  br i1 %89, label %90, label %Inhibit_Biased_Climb.exit.i8.i, !dbg !179
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+Non_Crossing_Biased_Climb.exit.i:                 ; preds = %85, %66
+  %88 = load i32* %result.i.i, align 4, !dbg !194
+  %89 = icmp ne i32 %88, 0, !dbg !179
+  br i1 %89, label %90, label %Inhibit_Biased_Climb.exit.i8.i, !dbg !179
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+Non_Crossing_Biased_Climb.exit.i:                 ; preds = %85, %66
+  %88 = load i32* %result.i.i, align 4, !dbg !194
+  %89 = icmp ne i32 %88, 0, !dbg !179
+  br i1 %89, label %90, label %Inhibit_Biased_Climb.exit.i8.i, !dbg !179
+
+true2
+  store i32 %94, i32* %result.i9.i, align 4, !dbg !195
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:90                                      ; preds = %Non_Crossing_Biased_Climb.exit.i
+  %91 = load i32* @Own_Tracked_Alt, align 4, !dbg !195
+  %92 = load i32* @Other_Tracked_Alt, align 4, !dbg !195
+  %93 = icmp sle i32 %91, %92, !dbg !195
+  %94 = zext i1 %93 to i32, !dbg !195
+  store i32 %94, i32* %result.i9.i, align 4, !dbg !195
+  %95 = load i32* %result.i9.i, align 4, !dbg !195
+  %96 = icmp ne i32 %95, 0, !dbg !196
+  br label %Inhibit_Biased_Climb.exit.i8.i
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:90                                      ; preds = %Non_Crossing_Biased_Climb.exit.i
+  %91 = load i32* @Own_Tracked_Alt, align 4, !dbg !195
+  %92 = load i32* @Other_Tracked_Alt, align 4, !dbg !195
+  %93 = icmp sle i32 %91, %92, !dbg !195
+  %94 = zext i1 %93 to i32, !dbg !195
+  store i32 %94, i32* %result.i9.i, align 4, !dbg !195
+  %95 = load i32* %result.i9.i, align 4, !dbg !195
+  %96 = icmp ne i32 %95, 0, !dbg !196
+  br label %Inhibit_Biased_Climb.exit.i8.i
+
+add8
+  br i1 %89, label %90, label %Inhibit_Biased_Climb.exit.i8.i, !dbg !179
+
+; <label>:90                                      ; preds = %Non_Crossing_Biased_Climb.exit.i
+  %91 = load i32* @Own_Tracked_Alt, align 4, !dbg !195
+  %92 = load i32* @Other_Tracked_Alt, align 4, !dbg !195
+  %93 = icmp sle i32 %91, %92, !dbg !195
+  %94 = zext i1 %93 to i32, !dbg !195
+  store i32 %94, i32* %result.i9.i, align 4, !dbg !195
+  %95 = load i32* %result.i9.i, align 4, !dbg !195
+  %96 = icmp ne i32 %95, 0, !dbg !196
+  br label %Inhibit_Biased_Climb.exit.i8.i
+
+true2
+  store i32 %98, i32* %need_upward_RA.i, align 4
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+Inhibit_Biased_Climb.exit.i8.i:                   ; preds = %90, %Non_Crossing_Biased_Climb.exit.i
+  %97 = phi i1 [ false, %Non_Crossing_Biased_Climb.exit.i ], [ %96, %90 ]
+  %98 = zext i1 %97 to i32
+  store i32 %98, i32* %need_upward_RA.i, align 4
+  %99 = load i32* @Climb_Inhibit, align 4, !dbg !197
+  %100 = icmp ne i32 %99, 0, !dbg !197
+  %101 = load i32* @Up_Separation, align 4, !dbg !197
+  %102 = add nsw i32 %101, 100, !dbg !197
+  %103 = select i1 %100, i32 %102, i32 %101, !dbg !197
+  %104 = load i32* @Down_Separation, align 4, !dbg !198
+  %105 = icmp sgt i32 %103, %104, !dbg !198
+  %106 = zext i1 %105 to i32, !dbg !198
+  store i32 %106, i32* %upward_preferred.i5.i, align 4, !dbg !198
+  %107 = load i32* %upward_preferred.i5.i, align 4, !dbg !200
+  %108 = icmp ne i32 %107, 0, !dbg !200
+  br i1 %108, label %109, label %128, !dbg !200
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+Inhibit_Biased_Climb.exit.i8.i:                   ; preds = %90, %Non_Crossing_Biased_Climb.exit.i
+  %97 = phi i1 [ false, %Non_Crossing_Biased_Climb.exit.i ], [ %96, %90 ]
+  %98 = zext i1 %97 to i32
+  store i32 %98, i32* %need_upward_RA.i, align 4
+  %99 = load i32* @Climb_Inhibit, align 4, !dbg !197
+  %100 = icmp ne i32 %99, 0, !dbg !197
+  %101 = load i32* @Up_Separation, align 4, !dbg !197
+  %102 = add nsw i32 %101, 100, !dbg !197
+  %103 = select i1 %100, i32 %102, i32 %101, !dbg !197
+  %104 = load i32* @Down_Separation, align 4, !dbg !198
+  %105 = icmp sgt i32 %103, %104, !dbg !198
+  %106 = zext i1 %105 to i32, !dbg !198
+  store i32 %106, i32* %upward_preferred.i5.i, align 4, !dbg !198
+  %107 = load i32* %upward_preferred.i5.i, align 4, !dbg !200
+  %108 = icmp ne i32 %107, 0, !dbg !200
+  br i1 %108, label %109, label %128, !dbg !200
+
+true2
+  store i32 %113, i32* %result.i2.i2.i, align 4, !dbg !202
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:109                                     ; preds = %Inhibit_Biased_Climb.exit.i8.i
+  %110 = load i32* @Own_Tracked_Alt, align 4, !dbg !202
+  %111 = load i32* @Other_Tracked_Alt, align 4, !dbg !202
+  %112 = icmp sle i32 %110, %111, !dbg !202
+  %113 = zext i1 %112 to i32, !dbg !202
+  store i32 %113, i32* %result.i2.i2.i, align 4, !dbg !202
+  %114 = load i32* %result.i2.i2.i, align 4, !dbg !202
+  %115 = icmp ne i32 %114, 0, !dbg !203
+  %116 = load i32* @Cur_Vertical_Sep, align 4, !dbg !203
+  %117 = icmp sge i32 %116, 300, !dbg !203
+  %or.cond9 = and i1 %115, %117, !dbg !203
+  br i1 %or.cond9, label %118, label %125, !dbg !203
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:109                                     ; preds = %Inhibit_Biased_Climb.exit.i8.i
+  %110 = load i32* @Own_Tracked_Alt, align 4, !dbg !202
+  %111 = load i32* @Other_Tracked_Alt, align 4, !dbg !202
+  %112 = icmp sle i32 %110, %111, !dbg !202
+  %113 = zext i1 %112 to i32, !dbg !202
+  store i32 %113, i32* %result.i2.i2.i, align 4, !dbg !202
+  %114 = load i32* %result.i2.i2.i, align 4, !dbg !202
+  %115 = icmp ne i32 %114, 0, !dbg !203
+  %116 = load i32* @Cur_Vertical_Sep, align 4, !dbg !203
+  %117 = icmp sge i32 %116, 300, !dbg !203
+  %or.cond9 = and i1 %115, %117, !dbg !203
+  br i1 %or.cond9, label %118, label %125, !dbg !203
+
+add8
+  br i1 %108, label %109, label %128, !dbg !200
+
+; <label>:109                                     ; preds = %Inhibit_Biased_Climb.exit.i8.i
+  %110 = load i32* @Own_Tracked_Alt, align 4, !dbg !202
+  %111 = load i32* @Other_Tracked_Alt, align 4, !dbg !202
+  %112 = icmp sle i32 %110, %111, !dbg !202
+  %113 = zext i1 %112 to i32, !dbg !202
+  store i32 %113, i32* %result.i2.i2.i, align 4, !dbg !202
+  %114 = load i32* %result.i2.i2.i, align 4, !dbg !202
+  %115 = icmp ne i32 %114, 0, !dbg !203
+  %116 = load i32* @Cur_Vertical_Sep, align 4, !dbg !203
+  %117 = icmp sge i32 %116, 300, !dbg !203
+  %or.cond9 = and i1 %115, %117, !dbg !203
+  br i1 %or.cond9, label %118, label %125, !dbg !203
+
+true3
+  %124 = icmp sge i32 %119, %123, !dbg !206
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:118                                     ; preds = %109
+  %119 = load i32* @Down_Separation, align 4, !dbg !203
+  %120 = load i32* @Alt_Layer_Value, align 4, !dbg !205
+  %121 = sext i32 %120 to i64, !dbg !205
+  %122 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %121, !dbg !205
+  %123 = load i32* %122, align 4, !dbg !205
+  %124 = icmp sge i32 %119, %123, !dbg !206
+  br label %125
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:118                                     ; preds = %109
+  %119 = load i32* @Down_Separation, align 4, !dbg !203
+  %120 = load i32* @Alt_Layer_Value, align 4, !dbg !205
+  %121 = sext i32 %120 to i64, !dbg !205
+  %122 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %121, !dbg !205
+  %123 = load i32* %122, align 4, !dbg !205
+  %124 = icmp sge i32 %119, %123, !dbg !206
+  br label %125
+
+add8
+  br i1 %108, label %109, label %128, !dbg !200
+
+; <label>:118                                     ; preds = %109
+  %119 = load i32* @Down_Separation, align 4, !dbg !203
+  %120 = load i32* @Alt_Layer_Value, align 4, !dbg !205
+  %121 = sext i32 %120 to i64, !dbg !205
+  %122 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %121, !dbg !205
+  %123 = load i32* %122, align 4, !dbg !205
+  %124 = icmp sge i32 %119, %123, !dbg !206
+  br label %125
+
+add8
+  br i1 %or.cond9, label %118, label %125, !dbg !203
+
+; <label>:118                                     ; preds = %109
+  %119 = load i32* @Down_Separation, align 4, !dbg !203
+  %120 = load i32* @Alt_Layer_Value, align 4, !dbg !205
+  %121 = sext i32 %120 to i64, !dbg !205
+  %122 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %121, !dbg !205
+  %123 = load i32* %122, align 4, !dbg !205
+  %124 = icmp sge i32 %119, %123, !dbg !206
+  br label %125
+
+true2
+  store i32 %127, i32* %result.i7.i, align 4
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:125                                     ; preds = %118, %109
+  %126 = phi i1 [ false, %109 ], [ %124, %118 ]
+  %127 = zext i1 %126 to i32
+  store i32 %127, i32* %result.i7.i, align 4
+  br label %Non_Crossing_Biased_Descend.exit.i, !dbg !207
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:125                                     ; preds = %118, %109
+  %126 = phi i1 [ false, %109 ], [ %124, %118 ]
+  %127 = zext i1 %126 to i32
+  store i32 %127, i32* %result.i7.i, align 4
+  br label %Non_Crossing_Biased_Descend.exit.i, !dbg !207
+
+add8
+  br i1 %108, label %109, label %128, !dbg !200
+
+; <label>:125                                     ; preds = %118, %109
+  %126 = phi i1 [ false, %109 ], [ %124, %118 ]
+  %127 = zext i1 %126 to i32
+  store i32 %127, i32* %result.i7.i, align 4
+  br label %Non_Crossing_Biased_Descend.exit.i, !dbg !207
+
+true2
+  store i32 %132, i32* %result.i1.i3.i, align 4, !dbg !208
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:128                                     ; preds = %Inhibit_Biased_Climb.exit.i8.i
+  %129 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %130 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %131 = icmp sle i32 %129, %130, !dbg !208
+  %132 = zext i1 %131 to i32, !dbg !208
+  store i32 %132, i32* %result.i1.i3.i, align 4, !dbg !208
+  %133 = load i32* %result.i1.i3.i, align 4, !dbg !208
+  %134 = icmp ne i32 %133, 0, !dbg !209
+  br i1 %134, label %135, label %149, !dbg !209
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:128                                     ; preds = %Inhibit_Biased_Climb.exit.i8.i
+  %129 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %130 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %131 = icmp sle i32 %129, %130, !dbg !208
+  %132 = zext i1 %131 to i32, !dbg !208
+  store i32 %132, i32* %result.i1.i3.i, align 4, !dbg !208
+  %133 = load i32* %result.i1.i3.i, align 4, !dbg !208
+  %134 = icmp ne i32 %133, 0, !dbg !209
+  br i1 %134, label %135, label %149, !dbg !209
+
+add8
+  br i1 %108, label %109, label %128, !dbg !200
+
+; <label>:128                                     ; preds = %Inhibit_Biased_Climb.exit.i8.i
+  %129 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %130 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %131 = icmp sle i32 %129, %130, !dbg !208
+  %132 = zext i1 %131 to i32, !dbg !208
+  store i32 %132, i32* %result.i1.i3.i, align 4, !dbg !208
+  %133 = load i32* %result.i1.i3.i, align 4, !dbg !208
+  %134 = icmp ne i32 %133, 0, !dbg !209
+  br i1 %134, label %135, label %149, !dbg !209
+
+true2
+  store i32 %139, i32* %result.i.i4.i, align 4, !dbg !208
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:135                                     ; preds = %128
+  %136 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %137 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %138 = icmp sle i32 %136, %137, !dbg !208
+  %139 = zext i1 %138 to i32, !dbg !208
+  store i32 %139, i32* %result.i.i4.i, align 4, !dbg !208
+  %140 = load i32* %result.i.i4.i, align 4, !dbg !208
+  %141 = icmp ne i32 %140, 0, !dbg !209
+  br i1 %141, label %142, label %149, !dbg !209
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:135                                     ; preds = %128
+  %136 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %137 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %138 = icmp sle i32 %136, %137, !dbg !208
+  %139 = zext i1 %138 to i32, !dbg !208
+  store i32 %139, i32* %result.i.i4.i, align 4, !dbg !208
+  %140 = load i32* %result.i.i4.i, align 4, !dbg !208
+  %141 = icmp ne i32 %140, 0, !dbg !209
+  br i1 %141, label %142, label %149, !dbg !209
+
+add8
+  br i1 %108, label %109, label %128, !dbg !200
+
+; <label>:135                                     ; preds = %128
+  %136 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %137 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %138 = icmp sle i32 %136, %137, !dbg !208
+  %139 = zext i1 %138 to i32, !dbg !208
+  store i32 %139, i32* %result.i.i4.i, align 4, !dbg !208
+  %140 = load i32* %result.i.i4.i, align 4, !dbg !208
+  %141 = icmp ne i32 %140, 0, !dbg !209
+  br i1 %141, label %142, label %149, !dbg !209
+
+add8
+  br i1 %134, label %135, label %149, !dbg !209
+
+; <label>:135                                     ; preds = %128
+  %136 = load i32* @Other_Tracked_Alt, align 4, !dbg !208
+  %137 = load i32* @Own_Tracked_Alt, align 4, !dbg !208
+  %138 = icmp sle i32 %136, %137, !dbg !208
+  %139 = zext i1 %138 to i32, !dbg !208
+  store i32 %139, i32* %result.i.i4.i, align 4, !dbg !208
+  %140 = load i32* %result.i.i4.i, align 4, !dbg !208
+  %141 = icmp ne i32 %140, 0, !dbg !209
+  br i1 %141, label %142, label %149, !dbg !209
+
+true3
+  %148 = icmp sge i32 %143, %147, !dbg !212
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:142                                     ; preds = %135
+  %143 = load i32* @Up_Separation, align 4, !dbg !209
+  %144 = load i32* @Alt_Layer_Value, align 4, !dbg !211
+  %145 = sext i32 %144 to i64, !dbg !211
+  %146 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %145, !dbg !211
+  %147 = load i32* %146, align 4, !dbg !211
+  %148 = icmp sge i32 %143, %147, !dbg !212
+  br label %149
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:142                                     ; preds = %135
+  %143 = load i32* @Up_Separation, align 4, !dbg !209
+  %144 = load i32* @Alt_Layer_Value, align 4, !dbg !211
+  %145 = sext i32 %144 to i64, !dbg !211
+  %146 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %145, !dbg !211
+  %147 = load i32* %146, align 4, !dbg !211
+  %148 = icmp sge i32 %143, %147, !dbg !212
+  br label %149
+
+add8
+  br i1 %108, label %109, label %128, !dbg !200
+
+; <label>:142                                     ; preds = %135
+  %143 = load i32* @Up_Separation, align 4, !dbg !209
+  %144 = load i32* @Alt_Layer_Value, align 4, !dbg !211
+  %145 = sext i32 %144 to i64, !dbg !211
+  %146 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %145, !dbg !211
+  %147 = load i32* %146, align 4, !dbg !211
+  %148 = icmp sge i32 %143, %147, !dbg !212
+  br label %149
+
+add8
+  br i1 %134, label %135, label %149, !dbg !209
+
+; <label>:142                                     ; preds = %135
+  %143 = load i32* @Up_Separation, align 4, !dbg !209
+  %144 = load i32* @Alt_Layer_Value, align 4, !dbg !211
+  %145 = sext i32 %144 to i64, !dbg !211
+  %146 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %145, !dbg !211
+  %147 = load i32* %146, align 4, !dbg !211
+  %148 = icmp sge i32 %143, %147, !dbg !212
+  br label %149
+
+add8
+  br i1 %141, label %142, label %149, !dbg !209
+
+; <label>:142                                     ; preds = %135
+  %143 = load i32* @Up_Separation, align 4, !dbg !209
+  %144 = load i32* @Alt_Layer_Value, align 4, !dbg !211
+  %145 = sext i32 %144 to i64, !dbg !211
+  %146 = getelementptr inbounds [4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 %145, !dbg !211
+  %147 = load i32* %146, align 4, !dbg !211
+  %148 = icmp sge i32 %143, %147, !dbg !212
+  br label %149
+
+true2
+  store i32 %151, i32* %result.i7.i, align 4
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:149                                     ; preds = %135, %142, %128
+  %150 = phi i1 [ true, %128 ], [ false, %135 ], [ %148, %142 ]
+  %151 = zext i1 %150 to i32
+  store i32 %151, i32* %result.i7.i, align 4
+  br label %Non_Crossing_Biased_Descend.exit.i
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:149                                     ; preds = %135, %142, %128
+  %150 = phi i1 [ true, %128 ], [ false, %135 ], [ %148, %142 ]
+  %151 = zext i1 %150 to i32
+  store i32 %151, i32* %result.i7.i, align 4
+  br label %Non_Crossing_Biased_Descend.exit.i
+
+add8
+  br i1 %108, label %109, label %128, !dbg !200
+
+; <label>:149                                     ; preds = %135, %142, %128
+  %150 = phi i1 [ true, %128 ], [ false, %135 ], [ %148, %142 ]
+  %151 = zext i1 %150 to i32
+  store i32 %151, i32* %result.i7.i, align 4
+  br label %Non_Crossing_Biased_Descend.exit.i
+
+true1
+  br i1 %153, label %154, label %161, !dbg !199
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+Non_Crossing_Biased_Descend.exit.i:               ; preds = %149, %125
+  %152 = load i32* %result.i7.i, align 4, !dbg !213
+  %153 = icmp ne i32 %152, 0, !dbg !199
+  br i1 %153, label %154, label %161, !dbg !199
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+Non_Crossing_Biased_Descend.exit.i:               ; preds = %149, %125
+  %152 = load i32* %result.i7.i, align 4, !dbg !213
+  %153 = icmp ne i32 %152, 0, !dbg !199
+  br i1 %153, label %154, label %161, !dbg !199
+
+true2
+  store i32 %158, i32* %result.i1.i, align 4, !dbg !214
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:154                                     ; preds = %Non_Crossing_Biased_Descend.exit.i
+  %155 = load i32* @Other_Tracked_Alt, align 4, !dbg !214
+  %156 = load i32* @Own_Tracked_Alt, align 4, !dbg !214
+  %157 = icmp sle i32 %155, %156, !dbg !214
+  %158 = zext i1 %157 to i32, !dbg !214
+  store i32 %158, i32* %result.i1.i, align 4, !dbg !214
+  %159 = load i32* %result.i1.i, align 4, !dbg !214
+  %160 = icmp ne i32 %159, 0, !dbg !215
+  br label %161
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:154                                     ; preds = %Non_Crossing_Biased_Descend.exit.i
+  %155 = load i32* @Other_Tracked_Alt, align 4, !dbg !214
+  %156 = load i32* @Own_Tracked_Alt, align 4, !dbg !214
+  %157 = icmp sle i32 %155, %156, !dbg !214
+  %158 = zext i1 %157 to i32, !dbg !214
+  store i32 %158, i32* %result.i1.i, align 4, !dbg !214
+  %159 = load i32* %result.i1.i, align 4, !dbg !214
+  %160 = icmp ne i32 %159, 0, !dbg !215
+  br label %161
+
+add8
+  br i1 %153, label %154, label %161, !dbg !199
+
+; <label>:154                                     ; preds = %Non_Crossing_Biased_Descend.exit.i
+  %155 = load i32* @Other_Tracked_Alt, align 4, !dbg !214
+  %156 = load i32* @Own_Tracked_Alt, align 4, !dbg !214
+  %157 = icmp sle i32 %155, %156, !dbg !214
+  %158 = zext i1 %157 to i32, !dbg !214
+  store i32 %158, i32* %result.i1.i, align 4, !dbg !214
+  %159 = load i32* %result.i1.i, align 4, !dbg !214
+  %160 = icmp ne i32 %159, 0, !dbg !215
+  br label %161
+
+true2
+  store i32 %163, i32* %need_downward_RA.i, align 4
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:161                                     ; preds = %154, %Non_Crossing_Biased_Descend.exit.i
+  %162 = phi i1 [ false, %Non_Crossing_Biased_Descend.exit.i ], [ %160, %154 ]
+  %163 = zext i1 %162 to i32
+  store i32 %163, i32* %need_downward_RA.i, align 4
+  %164 = load i32* %need_upward_RA.i, align 4, !dbg !216
+  %165 = icmp ne i32 %164, 0, !dbg !216
+  %166 = load i32* %need_downward_RA.i, align 4, !dbg !216
+  %167 = icmp ne i32 %166, 0, !dbg !216
+  %or.cond11 = and i1 %165, %167, !dbg !216
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:161                                     ; preds = %154, %Non_Crossing_Biased_Descend.exit.i
+  %162 = phi i1 [ false, %Non_Crossing_Biased_Descend.exit.i ], [ %160, %154 ]
+  %163 = zext i1 %162 to i32
+  store i32 %163, i32* %need_downward_RA.i, align 4
+  %164 = load i32* %need_upward_RA.i, align 4, !dbg !216
+  %165 = icmp ne i32 %164, 0, !dbg !216
+  %166 = load i32* %need_downward_RA.i, align 4, !dbg !216
+  %167 = icmp ne i32 %166, 0, !dbg !216
+  %or.cond11 = and i1 %165, %167, !dbg !216
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+
+true2
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !218
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:168                                     ; preds = %161
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !218
+  br label %alt_sep_test.exit, !dbg !218
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:168                                     ; preds = %161
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !218
+  br label %alt_sep_test.exit, !dbg !218
+
+add8
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+
+; <label>:168                                     ; preds = %161
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !218
+  br label %alt_sep_test.exit, !dbg !218
+
+true1
+  br i1 %171, label %172, label %173, !dbg !219
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:169                                     ; preds = %161
+  %170 = load i32* %need_upward_RA.i, align 4, !dbg !219
+  %171 = icmp ne i32 %170, 0, !dbg !219
+  br i1 %171, label %172, label %173, !dbg !219
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:169                                     ; preds = %161
+  %170 = load i32* %need_upward_RA.i, align 4, !dbg !219
+  %171 = icmp ne i32 %170, 0, !dbg !219
+  br i1 %171, label %172, label %173, !dbg !219
+
+add8
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+
+; <label>:169                                     ; preds = %161
+  %170 = load i32* %need_upward_RA.i, align 4, !dbg !219
+  %171 = icmp ne i32 %170, 0, !dbg !219
+  br i1 %171, label %172, label %173, !dbg !219
+
+true2
+  store i32 1, i32* %alt_sep.i, align 4, !dbg !221
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:172                                     ; preds = %169
+  store i32 1, i32* %alt_sep.i, align 4, !dbg !221
+  br label %alt_sep_test.exit, !dbg !221
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:172                                     ; preds = %169
+  store i32 1, i32* %alt_sep.i, align 4, !dbg !221
+  br label %alt_sep_test.exit, !dbg !221
+
+add8
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+
+; <label>:172                                     ; preds = %169
+  store i32 1, i32* %alt_sep.i, align 4, !dbg !221
+  br label %alt_sep_test.exit, !dbg !221
+
+add8
+  br i1 %171, label %172, label %173, !dbg !219
+
+; <label>:172                                     ; preds = %169
+  store i32 1, i32* %alt_sep.i, align 4, !dbg !221
+  br label %alt_sep_test.exit, !dbg !221
+
+true1
+  br i1 %175, label %176, label %177, !dbg !222
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:173                                     ; preds = %169
+  %174 = load i32* %need_downward_RA.i, align 4, !dbg !222
+  %175 = icmp ne i32 %174, 0, !dbg !222
+  br i1 %175, label %176, label %177, !dbg !222
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:173                                     ; preds = %169
+  %174 = load i32* %need_downward_RA.i, align 4, !dbg !222
+  %175 = icmp ne i32 %174, 0, !dbg !222
+  br i1 %175, label %176, label %177, !dbg !222
+
+add8
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+
+; <label>:173                                     ; preds = %169
+  %174 = load i32* %need_downward_RA.i, align 4, !dbg !222
+  %175 = icmp ne i32 %174, 0, !dbg !222
+  br i1 %175, label %176, label %177, !dbg !222
+
+add8
+  br i1 %171, label %172, label %173, !dbg !219
+
+; <label>:173                                     ; preds = %169
+  %174 = load i32* %need_downward_RA.i, align 4, !dbg !222
+  %175 = icmp ne i32 %174, 0, !dbg !222
+  br i1 %175, label %176, label %177, !dbg !222
+
+true2
+  store i32 2, i32* %alt_sep.i, align 4, !dbg !224
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:176                                     ; preds = %173
+  store i32 2, i32* %alt_sep.i, align 4, !dbg !224
+  br label %alt_sep_test.exit, !dbg !224
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:176                                     ; preds = %173
+  store i32 2, i32* %alt_sep.i, align 4, !dbg !224
+  br label %alt_sep_test.exit, !dbg !224
+
+add8
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+
+; <label>:176                                     ; preds = %173
+  store i32 2, i32* %alt_sep.i, align 4, !dbg !224
+  br label %alt_sep_test.exit, !dbg !224
+
+add8
+  br i1 %171, label %172, label %173, !dbg !219
+
+; <label>:176                                     ; preds = %173
+  store i32 2, i32* %alt_sep.i, align 4, !dbg !224
+  br label %alt_sep_test.exit, !dbg !224
+
+add8
+  br i1 %175, label %176, label %177, !dbg !222
+
+; <label>:176                                     ; preds = %173
+  store i32 2, i32* %alt_sep.i, align 4, !dbg !224
+  br label %alt_sep_test.exit, !dbg !224
+
+true2
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !225
+add8
+  br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+
+; <label>:177                                     ; preds = %173
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !225
+  br label %alt_sep_test.exit
+
+add8
+  br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+
+; <label>:177                                     ; preds = %173
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !225
+  br label %alt_sep_test.exit
+
+add8
+  br i1 %or.cond11, label %168, label %169, !dbg !216
+
+; <label>:177                                     ; preds = %173
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !225
+  br label %alt_sep_test.exit
+
+add8
+  br i1 %171, label %172, label %173, !dbg !219
+
+; <label>:177                                     ; preds = %173
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !225
+  br label %alt_sep_test.exit
+
+add8
+  br i1 %175, label %176, label %177, !dbg !222
+
+; <label>:177                                     ; preds = %173
+  store i32 0, i32* %alt_sep.i, align 4, !dbg !225
+  br label %alt_sep_test.exit
+
+true2
+  store i32 %178, i32* %ret, align 4, !dbg !171
+true3
+  %206 = call i32 (i8*, i8*, i32, i8*, ...)* bitcast (i32 (...)* @__assert_fail to i32 (i8*, i8*, i32, i8*, ...)*)(i8* getelementptr inbounds ([9 x i8]* @.str12, i32 0, i32 0), i8* getelementptr inbounds ([11 x i8]* @.str13, i32 0, i32 0), i32 192, i8* getelementptr inbounds ([11 x i8]* @__PRETTY_FUNCTION__.main, i32 0, i32 0)), !dbg !229
+add8
+  br i1 %or.cond35, label %207, label %205, !dbg !227
+
+; <label>:205                                     ; preds = %alt_sep_test.exit
+  %206 = call i32 (i8*, i8*, i32, i8*, ...)* bitcast (i32 (...)* @__assert_fail to i32 (i8*, i8*, i32, i8*, ...)*)(i8* getelementptr inbounds ([9 x i8]* @.str12, i32 0, i32 0), i8* getelementptr inbounds ([11 x i8]* @.str13, i32 0, i32 0), i32 192, i8* getelementptr inbounds ([11 x i8]* @__PRETTY_FUNCTION__.main, i32 0, i32 0)), !dbg !229
+  br label %207, !dbg !229
+
+true3
+  %210 = call i32 (%struct._IO_FILE*, i8*, ...)* @fprintf(%struct._IO_FILE* %208, i8* getelementptr inbounds ([4 x i8]* @.str14, i32 0, i32 0), i32 %209), !dbg !230
+222
+add5
+  %210 = call i32 (%struct._IO_FILE*, i8*, ...)* @fprintf(%struct._IO_FILE* %208, i8* getelementptr inbounds ([4 x i8]* @.str14, i32 0, i32 0), i32 %209), !dbg !230
+size: 18 18 29 29
+Affected Ratio: 0.155629
+ACN: 
+line: 74   br i1 %43, label %44, label %69, !dbg !181
+line: 76   br i1 %50, label %51, label %66, !dbg !184
+line: 76   br i1 %57, label %58, label %66, !dbg !184
+line: 121   br i1 %or.cond, label %8, label %11, !dbg !170
+line: 123   br i1 %18, label %19, label %22, !dbg !173
+line: 127   br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+line: 127   br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+line: 131   br i1 %or.cond11, label %168, label %169, !dbg !216
+line: 80   br i1 %or.cond7, label %78, label %85, !dbg !190
+line: 129   br i1 %89, label %90, label %Inhibit_Biased_Climb.exit.i8.i, !dbg !179
+line: 92   br i1 %108, label %109, label %128, !dbg !200
+line: 94   br i1 %or.cond9, label %118, label %125, !dbg !203
+line: 98   br i1 %134, label %135, label %149, !dbg !209
+line: 98   br i1 %141, label %142, label %149, !dbg !209
+line: 130   br i1 %153, label %154, label %161, !dbg !199
+line: 136   br i1 %171, label %172, label %173, !dbg !219
+line: 138   br i1 %175, label %176, label %177, !dbg !222
+line: 188   br i1 %or.cond35, label %207, label %205, !dbg !227
+AWN: 
+line: 73   store i32 %41, i32* %upward_preferred.i.i, align 4, !dbg !178
+line: 106   store i32 %48, i32* %result.i2.i.i, align 4, !dbg !183
+line: 106   store i32 %55, i32* %result.i1.i.i, align 4, !dbg !183
+line: 51   store i32 400, i32* getelementptr inbounds ([4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 0), align 4, !dbg !153
+line: 52   store i32 500, i32* getelementptr inbounds ([4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 1), align 4, !dbg !155
+line: 53   store i32 640, i32* getelementptr inbounds ([4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 2), align 4, !dbg !156
+line: 54   store i32 740, i32* getelementptr inbounds ([4 x i32]* @Positive_RA_Alt_Thresh, i32 0, i64 3), align 4, !dbg !157
+line: 0   store i32 %13, i32* %enabled.i, align 4
+line: 122   store i32 %16, i32* %tcas_equipped.i, align 4, !dbg !172
+line: 0   store i32 %24, i32* %intent_not_known.i, align 4
+line: 125   store i32 0, i32* %alt_sep.i, align 4, !dbg !174
+line: 112   store i32 %158, i32* %result.i1.i, align 4, !dbg !214
+line: 0   store i32 %163, i32* %need_downward_RA.i, align 4
+line: 135   store i32 0, i32* %alt_sep.i, align 4, !dbg !218
+line: 0   store i32 %68, i32* %result.i.i, align 4
+line: 112   store i32 %73, i32* %result.i.i.i, align 4, !dbg !189
+line: 0   store i32 %87, i32* %result.i.i, align 4
+line: 106   store i32 %94, i32* %result.i9.i, align 4, !dbg !195
+line: 0   store i32 %98, i32* %need_upward_RA.i, align 4
+line: 91   store i32 %106, i32* %upward_preferred.i5.i, align 4, !dbg !198
+line: 106   store i32 %113, i32* %result.i2.i2.i, align 4, !dbg !202
+line: 0   store i32 %127, i32* %result.i7.i, align 4
+line: 112   store i32 %132, i32* %result.i1.i3.i, align 4, !dbg !208
+line: 112   store i32 %139, i32* %result.i.i4.i, align 4, !dbg !208
+line: 0   store i32 %151, i32* %result.i7.i, align 4
+line: 137   store i32 1, i32* %alt_sep.i, align 4, !dbg !221
+line: 139   store i32 2, i32* %alt_sep.i, align 4, !dbg !224
+line: 141   store i32 0, i32* %alt_sep.i, align 4, !dbg !225
+line: 187   store i32 %178, i32* %ret, align 4, !dbg !171
+others: 
+  %10 = icmp sgt i32 %9, 600, !dbg !170
+  %65 = xor i1 %64, true, !dbg !187
+  %21 = icmp eq i32 %20, 0, !dbg !173
+  %160 = icmp ne i32 %159, 0, !dbg !215
+  %84 = icmp sge i32 %79, %83, !dbg !193
+  %96 = icmp ne i32 %95, 0, !dbg !196
+  %124 = icmp sge i32 %119, %123, !dbg !206
+  %148 = icmp sge i32 %143, %147, !dbg !212
+  %206 = call i32 (i8*, i8*, i32, i8*, ...)* bitcast (i32 (...)* @__assert_fail to i32 (i8*, i8*, i32, i8*, ...)*)(i8* getelementptr inbounds ([9 x i8]* @.str12, i32 0, i32 0), i8* getelementptr inbounds ([11 x i8]* @.str13, i32 0, i32 0), i32 192, i8* getelementptr inbounds ([11 x i8]* @__PRETTY_FUNCTION__.main, i32 0, i32 0)), !dbg !229
+  %210 = call i32 (%struct._IO_FILE*, i8*, ...)* @fprintf(%struct._IO_FILE* %208, i8* getelementptr inbounds ([4 x i8]* @.str14, i32 0, i32 0), i32 %209), !dbg !230
+iCtrl: 
+line1: 0   br label %11
+line2: 121   br i1 %or.cond, label %8, label %11, !dbg !170
+line1: 0   br label %22
+line2: 123   br i1 %18, label %19, label %22, !dbg !173
+line1: 127   br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+line2: 127   br i1 %26, label %27, label %alt_sep_test.exit, !dbg !175
+line1: 74   br i1 %43, label %44, label %69, !dbg !181
+line2: 127   br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+line1: 76   br i1 %50, label %51, label %66, !dbg !184
+line2: 74   br i1 %43, label %44, label %69, !dbg !181
+line1: 76   br i1 %57, label %58, label %66, !dbg !184
+line2: 76   br i1 %50, label %51, label %66, !dbg !184
+line1: 0   br label %66
+line2: 76   br i1 %57, label %58, label %66, !dbg !184
+line1: 77   br label %Non_Crossing_Biased_Climb.exit.i, !dbg !188
+line2: 74   br i1 %43, label %44, label %69, !dbg !181
+line1: 80   br i1 %or.cond7, label %78, label %85, !dbg !190
+line2: 74   br i1 %43, label %44, label %69, !dbg !181
+line1: 0   br label %85
+line2: 80   br i1 %or.cond7, label %78, label %85, !dbg !190
+line1: 0   br label %Non_Crossing_Biased_Climb.exit.i
+line2: 74   br i1 %43, label %44, label %69, !dbg !181
+line1: 129   br i1 %89, label %90, label %Inhibit_Biased_Climb.exit.i8.i, !dbg !179
+line2: 127   br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+line1: 0   br label %Inhibit_Biased_Climb.exit.i8.i
+line2: 129   br i1 %89, label %90, label %Inhibit_Biased_Climb.exit.i8.i, !dbg !179
+line1: 92   br i1 %108, label %109, label %128, !dbg !200
+line2: 127   br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+line1: 94   br i1 %or.cond9, label %118, label %125, !dbg !203
+line2: 92   br i1 %108, label %109, label %128, !dbg !200
+line1: 0   br label %125
+line2: 94   br i1 %or.cond9, label %118, label %125, !dbg !203
+line1: 95   br label %Non_Crossing_Biased_Descend.exit.i, !dbg !207
+line2: 92   br i1 %108, label %109, label %128, !dbg !200
+line1: 98   br i1 %134, label %135, label %149, !dbg !209
+line2: 92   br i1 %108, label %109, label %128, !dbg !200
+line1: 98   br i1 %141, label %142, label %149, !dbg !209
+line2: 98   br i1 %134, label %135, label %149, !dbg !209
+line1: 0   br label %149
+line2: 98   br i1 %141, label %142, label %149, !dbg !209
+line1: 0   br label %Non_Crossing_Biased_Descend.exit.i
+line2: 92   br i1 %108, label %109, label %128, !dbg !200
+line1: 130   br i1 %153, label %154, label %161, !dbg !199
+line2: 127   br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+line1: 0   br label %161
+line2: 130   br i1 %153, label %154, label %161, !dbg !199
+line1: 131   br i1 %or.cond11, label %168, label %169, !dbg !216
+line2: 127   br i1 %or.cond5, label %alt_sep_test.exit, label %Inhibit_Biased_Climb.exit.i.i, !dbg !175
+line1: 135   br label %alt_sep_test.exit, !dbg !218
+line2: 131   br i1 %or.cond11, label %168, label %169, !dbg !216
+line1: 136   br i1 %171, label %172, label %173, !dbg !219
+line2: 131   br i1 %or.cond11, label %168, label %169, !dbg !216
+line1: 137   br label %alt_sep_test.exit, !dbg !221
+line2: 136   br i1 %171, label %172, label %173, !dbg !219
+line1: 138   br i1 %175, label %176, label %177, !dbg !222
+line2: 136   br i1 %171, label %172, label %173, !dbg !219
+line1: 139   br label %alt_sep_test.exit, !dbg !224
+line2: 138   br i1 %175, label %176, label %177, !dbg !222
+line1: 0   br label %alt_sep_test.exit
+line2: 138   br i1 %175, label %176, label %177, !dbg !222
+line1: 192   br label %207, !dbg !229
+line2: 188   br i1 %or.cond35, label %207, label %205, !dbg !227
+Memory: 0
+KLEE: WARNING: undefined reference to function: fprintf
+KLEE: WARNING: undefined reference to variable: stdout
+KLEE: WARNING ONCE: calling external: fprintf(139753122104320, 20757776, 0) at /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v10.c:195
+0
+0
+0
+0
+KLEE: ERROR: /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v10.c:59: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+0
+1
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+0
+1
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+0
+1
+2
+0
+0
+0
+1
+2
+0
+0
+2
+0
+0
+0
+1
+2
+0
+0
+0
+1
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+KLEE: ERROR: /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v10.c:59: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+0
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+0
+2
+1
+0
+2
+1
+0
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+memory: 6
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+0
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+0
+1
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+0
+1
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+0
+1
+2
+0
+0
+0
+1
+2
+0
+0
+2
+0
+0
+0
+1
+2
+0
+0
+0
+1
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+2
+0
+0
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+memory: 11
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+0
+2
+1
+0
+2
+1
+0
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+1
+0
+2
+KLEE: ERROR: /home/easyqiu/installed/klee-1.4.0/examples/ISE/tcas/tcas_v10.c:192: ASSERTION FAIL: ret == 0
+KLEE: NOTE: now ignoring this error at this location
+[0;1;34mDiSE Early terminated: 0x13da3a0
+[0m[0;1;34m
+Run Time: 6.515000e+01 1.816299e+01
+Analysis Time: 0.000000e+00
+Update State Time: 3.165000e-03
+Update Summary Time: 6.070000e-04
+Prune State Time: 0.000000e+00 2.809600e-02 0.000000e+00
+Setting: dise & ise & isum --> 1 0 0
+Max Memory: 11
+[0m1
+Elapsed: 00:01:05
+
+
+KLEE: done: total instructions = 169834
+KLEE: done: completed paths = 1819
+KLEE: done: generated tests = 0
+55.04user 5.62system 1:05.33elapsed 92%CPU (0avgtext+0avgdata 33520maxresident)k
+0inputs+592outputs (0major+4376723minor)pagefaults 0swaps
