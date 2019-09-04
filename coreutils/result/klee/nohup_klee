@@ -1,0 +1,497 @@
+KLEE: NOTE: Using klee-uclibc : /home/easyqiu/Dropbox/papers/ISE/klee-1.4.0/build/Release+Debug+Asserts/lib/klee-uclibc.bca
+KLEE: NOTE: Using model: /home/easyqiu/Dropbox/papers/ISE/klee-1.4.0/build/Release+Debug+Asserts/lib/libkleeRuntimePOSIX.bca
+KLEE: output directory is "/home/easyqiu/Dropbox/papers/ISE/klee-1.4.0/examples/ISE/coreutils-6.10/obj-llvm/src/./klee-out-487"
+KLEE: Using STP solver backend
+KLEE: WARNING: undefined reference to function: __ctype_b_loc
+KLEE: WARNING: undefined reference to function: __signbitl
+KLEE: WARNING: executable has module level assembly (ignoring)
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 34929568) at /home/easyqiu/Dropbox/papers/ISE/klee-1.4.0/runtime/POSIX/fd.c:1044
+KLEE: WARNING ONCE: calling __user_main with extra arguments.
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: __syscall_rt_sigaction: silently ignoring
+KLEE: WARNING ONCE: calling external: vprintf(51224736, 40949600) at /home/easyqiu/installed/klee-uclibc/libc/stdio/fprintf.c:35
+KLEE: WARNING ONCE: calling close_stdout with extra arguments.
+: No such file or directoryKLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING ONCE: calling external: __ctype_b_loc() at /home/easyqiu/installed/klee-1.4.0/examples/ISE/coreutils-6.10/obj-llvm/lib/../../lib/quotearg.c:397
+: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+KLEE: WARNING: execve: ignoring (EACCES)
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+KLEE: WARNING: execve: ignoring (EACCES)
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied./nohup.bc: invalid option --  
+Try `./nohup.bc --help' for more information.
+memory: 30
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+: Permission deniedmissing operand
+Try `./nohup.bc --help' for more information.
+: No such file or directoryKLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+memory: 30
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 30
+: Permission denied: Permission deniedKLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+KLEE: WARNING: execve: ignoring (EACCES)
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission deniedKLEE: WARNING: execve: ignoring (EACCES)
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission deniedKLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+./nohup.bc: invalid option --  
+Try `./nohup.bc --help' for more information.
+: Permission denied: No such file or directoryKLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+memory: 31
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission deniedKLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+KLEE: WARNING: execve: ignoring (EACCES)
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission deniedKLEE: WARNING: execve: ignoring (EACCES)
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission deniedKLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+: No such file or directory: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+KLEE: WARNING: execve: ignoring (EACCES)
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedKLEE: WARNING: execve: ignoring (EACCES)
+: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission deniedKLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+: Permission denied: Permission denied: Permission denied./nohup.bc: invalid option --  
+Try `./nohup.bc --help' for more information.
+memory: 31
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+: Permission denied: No such file or directory: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+KLEE: WARNING: execve: ignoring (EACCES)
+: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+KLEE: WARNING: execve: ignoring (EACCES)
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedKLEE: WARNING: execve: ignoring (EACCES)
+: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 32
+: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission denied: Permission deniedmemory: 31
+: Permission denied[0;1;34m
+Run Time: 5.881000e+01 3.201161e+01
+Analysis Time: 0.000000e+00 0.000000e+00
+Update State Time: 1.220234e+00 4.230970e-01 0.000000e+00 8.225650e-01 0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00
+Add exepoint time: 0.000000e+00
+Update Summary Time: 7.700000e-04 1.042000e-03
+Prune State Time: 0.000000e+00 2.504736e+00 2.267169e+01
+Setting: dise & ise & isum --> 0 0 0
+Max Memory: 32
+[0m: Permission denied: Permission denied: Permission deniedElapsed: 00:00:58
+
+
+KLEE: done: total instructions = 15701265
+KLEE: done: completed paths = 1537
+KLEE: done: generated tests = 0
+26.10user 12.34system 0:59.65elapsed 64%CPU (0avgtext+0avgdata 50276maxresident)k
+272inputs+8936outputs (2major+822293minor)pagefaults 0swaps
