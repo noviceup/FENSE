@@ -1,2 +1,2 @@
 # FENSE
-Feed-back incremental symolic execution
+Feedback-driven incremental symbolic execution
